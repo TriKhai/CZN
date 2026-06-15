@@ -1,0 +1,1782 @@
+{
+    "equipments": [
+        {
+            "name": "An Eye Plucked from a Mural",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "At the start of the turn, increase Damage Amount of this unit by 20% for each ally Persona Card in hand",
+            "img": "/static/img/An_Eye_Plucked_from_a_Mural.png"
+        },
+        {
+            "name": "Announcement of Catastrophe",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "+12% Defense. Decrease the number of Break Recovery cards required by all Combatants by 1.",
+            "img": "/static/img/Announcement_of_Catastrophe.png"
+        },
+        {
+            "name": "Bangle of Valor",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "Increase Damage Amount of ally Arena cards by 20%.\nAt the start of battle, create 1 Forgotten Sword.",
+            "img": "/static/img/Bangle_of_Valor.png"
+        },
+        {
+            "name": "Branch of Eternity",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "On Heal or Recover, Fixed Damage to all enemies equal to 50% of Recover amount.",
+            "img": "/static/img/Branch_of_Eternity.png"
+        },
+        {
+            "name": "Brilliant Eternal Flame",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "Increase Damage Amount of 2-cost or higher Exhaust cards by 40%.",
+            "img": "/static/img/Brilliant_Eternal_Flame.png"
+        },
+        {
+            "name": "Chimeranite",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "When you Draw by an ability, +35% Damage amount to your own Attack Card(s) for 1 turn (Max 1 time per turn).",
+            "img": "/static/img/Chimeranite.png"
+        },
+        {
+            "name": "Consecrated Halo",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "+25% Shield Gain",
+            "img": "/static/img/Consecrated_Halo.png"
+        },
+        {
+            "name": "Corrupted Core",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "+15% Defense, Retain +20% Shield.",
+            "img": "/static/img/Corrupted_Core.png"
+        },
+        {
+            "name": "Dark Grip's Claws",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "Increase the damage of attack on all enemies by 25%.",
+            "img": "/static/img/Dark_Grips_Claws.png"
+        },
+        {
+            "name": "Dice of Derangement",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "+8% max HP. At the end of battle, if HP below 50%, recover 8% max HP. If HP is 50% or higher, -5 for the combatant with the highest Stress.",
+            "img": "/static/img/Dice_of_Derangement.png"
+        },
+        {
+            "name": "Dice of Discord",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "At the end of turn, 40% x 2-6 Fixed Damage to a random enemies, and trigger 200% Fixed Damage on allies with one random 1 effect.",
+            "img": "/static/img/Dice_of_Discord.png"
+        },
+        {
+            "name": "Dormant Seeds",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "On gaining Shield, +100% Fixed Shield (1 per turn).",
+            "img": "/static/img/Dormant_Seeds.png"
+        },
+        {
+            "name": "Eye of Gluttony",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "+40% Damage. At the end of the turn, 30% chance to Exhaust 1 card in hand.",
+            "img": "/static/img/Eye_of_Gluttony.png"
+        },
+        {
+            "name": "Eye of the Punisher",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "If the enemy is alone, increase damage by 30%.",
+            "img": "/static/img/Eye_of_the_Punisher.png"
+        },
+        {
+            "name": "Foggy Crystal Ball",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "40% Damage for Attack cards with Cost 0.",
+            "img": "/static/img/Foggy_Crystal_Ball.png"
+        },
+        {
+            "name": "Forbidden Bible",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "At the start of your turn after 4 turns from battle start, 550% Fixed Damage to all enemies.",
+            "img": "/static/img/Forbidden_Bible.png"
+        },
+        {
+            "name": "Formica's Perfect Spear",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+7% Damage per enemy. +10% All-Attack Damage.",
+            "img": "/static/img/Formicas_Perfect_Spear.png"
+        },
+        {
+            "name": "Fragment of the Empty Void",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "At the start of battle, Discard up to 3 cards, Draw equal to the number.",
+            "img": "/static/img/Fragment_of_the_Empty_Void.png"
+        },
+        {
+            "name": "Gloomy Prime's Eye",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "At the start of battle, +40% Shield.",
+            "img": "/static/img/Gloomy_Primes_Eye.png"
+        },
+        {
+            "name": "Intellect of Discord",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+18% Attack. On Ravage, allies' Stress -1.",
+            "img": "/static/img/Intellect_of_Discord.png"
+        },
+        {
+            "name": "Kentris Chitin Armor",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "+15% Ally Shield Gain.",
+            "img": "/static/img/Kentris_Chitin_Armor.png"
+        },
+        {
+            "name": "Lepidola's Whip",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+25% Damage for Attack Cards costing 1 or less.",
+            "img": "/static/img/Lepidolas_Whip.png"
+        },
+        {
+            "name": "Liberated Essence",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "At the start of the turn, decrease Cost of 1 random Exhaust card in hand by 1 for 1 turn.",
+            "img": "/static/img/Liberated_Essence.png"
+        },
+        {
+            "name": "Mask of Flames",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "Increase damage dealt to Vulnerable targets by 35%.",
+            "img": "/static/img/Mask_of_Flames.png"
+        },
+        {
+            "name": "Mutated Order",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "Increase Damage Amount by 25% against targets that haven't acted.",
+            "img": "/static/img/Mutated_Order.png"
+        },
+        {
+            "name": "Primordial Discipline",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "At the start of battle, gain 2 Immunity.",
+            "img": "/static/img/Primordial_Discipline.png"
+        },
+        {
+            "name": "Pulsating Egg",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "+15% Attack, +10% Max HP.",
+            "img": "/static/img/Pulsating_Egg.png"
+        },
+        {
+            "name": "Radiant Orb",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+25% Damage to targets with Shield.",
+            "img": "/static/img/Radiant_Orb.png"
+        },
+        {
+            "name": "Revelation's of Futility",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "When using Attack Cards, +20% Fixed Shield (10 per turn).",
+            "img": "/static/img/Revelations_of_Futility.png"
+        },
+        {
+            "name": "Shell Bug Horn",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+20% Critical Damage.",
+            "img": "/static/img/Shell_Bug_Horn.png"
+        },
+        {
+            "name": "Shell of Aberration",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "+12% Defense. When Stress increases, 50% chance to increase Stress by 1 less.",
+            "img": "/static/img/Shell_of_Aberration.png"
+        },
+        {
+            "name": "Sphere of Randomness",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "+10% max HP. At the start of battle, +1 AP, Draw 1.",
+            "img": "/static/img/Sphere_of_Randomness.png"
+        },
+        {
+            "name": "Star-Lit Cloak",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "-10% Damage (1 per turn).",
+            "img": "/static/img/Star-Lit_Cloak.png"
+        },
+        {
+            "name": "Tentacles of Chaos",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+8% ally Attack Upon enemy Defeat, -2 Stress to the Combatant with the highest Stress.",
+            "img": "/static/img/Tentacles_of_Chaos.png"
+        },
+        {
+            "name": "Twin Swords of Greater and Lesser Evil",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "+30% Damage against Ravaged targets.",
+            "img": "/static/img/Twin_Swords_of_Greater_and_Lesser_Evil.png"
+        },
+        {
+            "name": "Verdant Shackles",
+            "type": "Trinket",
+            "level": "Mystic",
+            "effect": "+12% Attack, +12% Defense.",
+            "img": "/static/img/Verdant_Shackles.png"
+        },
+        {
+            "name": "Void of the Devourer",
+            "type": "Weapon",
+            "level": "Mystic",
+            "effect": "When a card is Exhausted, next card used +35% Damage stacks up to 1 time.",
+            "img": "/static/img/Void_of_the_Devourer.png"
+        },
+        {
+            "name": "Wild Fur Cloak",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "At turn start, Counter 1.",
+            "img": "/static/img/Wild_Fur_Cloak.png"
+        },
+        {
+            "name": "Wings of the Swarm",
+            "type": "Armor",
+            "level": "Mystic",
+            "effect": "At the start of battle, gain 2 Immunity.",
+            "img": "/static/img/Wings_of_the_Swarm.png"
+        },
+        {
+            "name": "Abyssal Bug Tooth",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "On Critical Hit, 50% chance to 1 Agony.",
+            "img": "/static/img/Abyssal_Bug_Tooth.png"
+        },
+        {
+            "name": "Assault Boots",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of your turn after 2 turns from battle start, +200% Fixed Shield.",
+            "img": "/static/img/Assault_Boots.png"
+        },
+        {
+            "name": "Blood Giant Claw",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "On Ravage, 150% Fixed Damage to the target.",
+            "img": "/static/img/Blood_Giant_Claw.png"
+        },
+        {
+            "name": "Bloody Pendant",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When using Duplicated Cards, all enemies' Action Count does not decrease for 1 turn (1 per battle).",
+            "img": "/static/img/Bloody_Pendant.png"
+        },
+        {
+            "name": "Bone Ring of Wildfire",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When using a Upgrade card, +30% Damage for 1 turn.",
+            "img": "/static/img/Bone_Ring_of_Wildfire.png"
+        },
+        {
+            "name": "Branch of the Evil Tree",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "On Heal or Recover, Fixed Damage to a random enemy equal to 50% of Recover amount.",
+            "img": "/static/img/Branch_of_the_Evil_Tree.png"
+        },
+        {
+            "name": "Branch of the Sacred Tree",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "On Heal or Recover, Fixed Damage to all enemies equal to 35% of Heal amount.",
+            "img": "/static/img/Branch_of_the_Sacred_Tree.png"
+        },
+        {
+            "name": "Call of the Ancient Spirit",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "On Critical Hit, Heal 10%.",
+            "img": "/static/img/Call_of_the_Ancient_Spirit.png"
+        },
+        {
+            "name": "Cavalry of Lightning",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When dealing Damage to a target with Shield, +100% Damage to the next Attack Card.",
+            "img": "/static/img/Cavalry_of_Lightning.png"
+        },
+        {
+            "name": "Chains of Obsession",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When using Attack cards, 1% HP Reduction, 60% Fixed Shield.",
+            "img": "/static/img/Chains_of_Obsession.png"
+        },
+        {
+            "name": "Chaos Bible",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of your turn after 4 turns from battle start, 400% Fixed Damage to all enemies.",
+            "img": "/static/img/Chaos_Bible.png"
+        },
+        {
+            "name": "Cloud-Walking Shoes",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When an ally inflicts Ravage, +40% Fixed Shield.",
+            "img": "/static/img/Cloud-Walking_Shoes.png"
+        },
+        {
+            "name": "Combat Drum",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When 5 Skill Cards are created, increase Damage Amount of the next ally card activated by 20% (max 1 stack).",
+            "img": "/static/img/Combat_Drum.png"
+        },
+        {
+            "name": "Corroded Core",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "If an attack is perfectly blocked with Shield, 1 Impair on all enemies (1 per turn).",
+            "img": "/static/img/Corroded_Core.png"
+        },
+        {
+            "name": "Crimson Bloodstone",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "On using an Attack card, Recover Health equal to 9% of the damage dealt (1 per turn).",
+            "img": "/static/img/Crimson_Bloodstone.png"
+        },
+        {
+            "name": "Crimson Sword",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When dealing Damage with a targeting Attack Card, 3 Agony (1 per turn).",
+            "img": "/static/img/Crimson_Sword.png"
+        },
+        {
+            "name": "Crushed Angel Feather",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When ally Linked cards are used, increase Action Count of all enemies by 2 (1 time per turn)",
+            "img": "/static/img/Crushed_Angel_Feather.png"
+        },
+        {
+            "name": "Cursed Doll",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of turn, Heal 60% for each Status Ailment and Curse card in hand.",
+            "img": "/static/img/Cursed_Doll.png"
+        },
+        {
+            "name": "Dagger That Tricked the Shadow",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+12% Critical Damage.",
+            "img": "/static/img/Dagger_That_Tricked_the_Shadow.png"
+        },
+        {
+            "name": "Dance of the Night Butterflies",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "On Ravage, +60% Fixed Shield.",
+            "img": "/static/img/Dance_of_the_Night_Butterflies.png"
+        },
+        {
+            "name": "Delicate Collarbone",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of the turn, if an ally Persona Card is in hand, decrease Stress of allies by 2",
+            "img": "/static/img/Delicate_Collarbone.png"
+        },
+        {
+            "name": "Dimensional Cube",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When a card is Discarded, +15% Damage Amount for 1 turn (max 3 stacks).",
+            "img": "/static/img/Dimensional_Cube.png"
+        },
+        {
+            "name": "Dream of the Devoured",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When a card is Exhausted, next card used +25% Damage stacks up to 1 time.",
+            "img": "/static/img/Dream_of_the_Devoured.png"
+        },
+        {
+            "name": "Emblem of an Exceptional Entity",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "+30% Damage Amount. Stress received becomes 0 (1 for each battle).",
+            "img": "/static/img/Emblem_of_an_Exceptional_Entity.png"
+        },
+        {
+            "name": "Esophagus of Madness",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+20% Damage against targets with Agony.",
+            "img": "/static/img/Esophagus_of_Madness.png"
+        },
+        {
+            "name": "Eternal Stone",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of turn, +25% Fixed Shield equal to the number of enemies.",
+            "img": "/static/img/Eternal_Stone.png"
+        },
+        {
+            "name": "Executioner's Edge",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "Against enemies with HP below 50%, +35% Damage.",
+            "img": "/static/img/Executioners_Edge.png"
+        },
+        {
+            "name": "Eye of the Eyeless",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "Increase damage of Basic attack cards by 40%.",
+            "img": "/static/img/Eye_of_the_Eyeless.png"
+        },
+        {
+            "name": "Fairy King's Crown",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "+6% Critical Chance.",
+            "img": "/static/img/Fairy_Kings_Crown.png"
+        },
+        {
+            "name": "Flame of Purification",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When a card is Exhausted, 1 Retribution on a random enemy (2 per turn).",
+            "img": "/static/img/Flame_of_Purification.png"
+        },
+        {
+            "name": "Flower of Dead Souls",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "From the second Attack Card each turn onward, +20% Damage.",
+            "img": "/static/img/Flower_of_Dead_Souls.png"
+        },
+        {
+            "name": "Formica's Broken Spear",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+6% Damage per enemy.",
+            "img": "/static/img/Formicas_Broken_Spear.png"
+        },
+        {
+            "name": "Gladiator's Medallion",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When Shield is gained 3 times through cards, 100% Fixed Damage to all enemies.",
+            "img": "/static/img/Gladiators_Medallion.png"
+        },
+        {
+            "name": "Gluttonous Tailcoat",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When taking damage, after 1 turn, +80% Fixed Shield at start of turn.",
+            "img": "/static/img/Gluttonous_Tailcoat.png"
+        },
+        {
+            "name": "Grey Orb",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of battle, gain 3 Damage Reduction.",
+            "img": "/static/img/Grey_Orb.png"
+        },
+        {
+            "name": "Growing Carapace",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of the turn, gain 40% Fixed Shield.",
+            "img": "/static/img/Growing_Carapace.png"
+        },
+        {
+            "name": "Guardian Core",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "If an enemy with an intent to Attack is present, +60% Fixed Shield (1 per turn).",
+            "img": "/static/img/Guardian_Core.png"
+        },
+        {
+            "name": "Harp of Conflict",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "For 1 turn, when each of Damage, Shield, and Heal has been activated through cards by allies, increase Damage Amount of allies by 15% for 1 turn.",
+            "img": "/static/img/Harp_of_Conflict.png"
+        },
+        {
+            "name": "Heart of Gold",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the end of battle, if HP is below 50%, Recover 8%.",
+            "img": "/static/img/Heart_of_Gold.png"
+        },
+        {
+            "name": "Heart of the Jewel",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "X is applied as X+1.",
+            "img": "/static/img/Heart_of_the_Jewel.png"
+        },
+        {
+            "name": "Hymn-Singing Lips",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When a card is Discarded through an ability, 1 Resonance to all enemies (3 times per turn)",
+            "img": "/static/img/Hymn-Singing_Lips.png"
+        },
+        {
+            "name": "Immortal Scale",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When gaining Counterattack via an ability, +1 additional Counterattack.",
+            "img": "/static/img/Immortal_Scale.png"
+        },
+        {
+            "name": "Incomprehensible Holy Object",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "Each time a Quietus card is Discarded through an ability, 80% Fixed Shield (2 times per turn)",
+            "img": "/static/img/Incomprehensible_Holy_Object.png"
+        },
+        {
+            "name": "Key of Sleep",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+40% Damage Amount to Attack Cards\nWhen the target count of the Attack Card is 2 or more, -10% Damage Amount for each target (max -30%)",
+            "img": "/static/img/Key_of_Sleep.png"
+        },
+        {
+            "name": "Kirak's Core",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of turn, if HP below 40% max HP, Recover 5%.",
+            "img": "/static/img/Kiraks_Core.png"
+        },
+        {
+            "name": "Lead-Colored Holy Water",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "On Ravage, 2 Impair to the target.",
+            "img": "/static/img/Lead-Colored_Holy_Water.png"
+        },
+        {
+            "name": "Leaf of the World Tree",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When 3 cards of 2-cost or higher are used, Stockpile. (Stockpile = Retain AP, on activation, decrease Stockpile by 1).",
+            "img": "/static/img/Leaf_of_the_World_Tree.png"
+        },
+        {
+            "name": "Lepidola's Wing",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of battle, 1 Evade.",
+            "img": "/static/img/Lepidolas_Wing.png"
+        },
+        {
+            "name": "Luminescent Shroom",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "Double the effect of Spore Propagation on the 6th Attack Card created for 1 turn.",
+            "img": "/static/img/Luminescent_Shroom.png"
+        },
+        {
+            "name": "M.S.S Data Pad SE",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of Nihilum battle, 3 Vulnerable to all enemies.",
+            "img": "/static/img/MSS_Data_Pad_SE.png"
+        },
+        {
+            "name": "M.S.S Scope",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "If a harmful effect is inflicted for 1 turn, then +80% Fixed Shield at the end of turn.",
+            "img": "/static/img/MSS_Scope.png"
+        },
+        {
+            "name": "Madman's Masterpiece",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of an Elite Battle, +50% Damage.",
+            "img": "/static/img/Madmans_Masterpiece.png"
+        },
+        {
+            "name": "Mask of Emotions",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When attacked, 2 Resonance to the attacker (3 times per turn)",
+            "img": "/static/img/Mask_of_Emotions.png"
+        },
+        {
+            "name": "Moon of Destruction",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of battle, 200% Fixed Damage to all enemies.",
+            "img": "/static/img/Moon_of_Destruction.png"
+        },
+        {
+            "name": "Mountain of Corpses",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+25% Attack Card Damage (1 per turn).",
+            "img": "/static/img/Mountain_of_Corpses.png"
+        },
+        {
+            "name": "Mutagenic Wave Amplifier",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When Drawing a Status Ailment or Curse Card, +12% Damage Amount for 1 turn.",
+            "img": "/static/img/Mutagenic_Wave_Amplifier.png"
+        },
+        {
+            "name": "Mutant Predator Spike",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When there are 4 or more cards in hand, increase Damage Amount by 30%.",
+            "img": "/static/img/Mutant_Predator_Spike.png"
+        },
+        {
+            "name": "Mutated Claws",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When drawing a Status Ailment or Curse card, +15% Damage for 1 turn.",
+            "img": "/static/img/Mutated_Claws.png"
+        },
+        {
+            "name": "Natural Predator",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "On Ravage, +100% Damage to next 1 Attack Card used.",
+            "img": "/static/img/Natural_Predator.png"
+        },
+        {
+            "name": "Nature's Gift",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "Heal 40% at the end of turn.",
+            "img": "/static/img/Natures_Gift.png"
+        },
+        {
+            "name": "Nature's Hostility",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When an enemy is defeated, 200% Fixed Damage to all enemies.",
+            "img": "/static/img/Natures_Hostility.png"
+        },
+        {
+            "name": "Nightmare Hairpin",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When a single target Attack Card is used, increase Action Count of the targeted enemy by 2 (1 time per turn)",
+            "img": "/static/img/Nightmare_Hairpin.png"
+        },
+        {
+            "name": "Order’s Baton",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "Each time a card is created, +20% Damage Amount for 1 turn (2 times per turn)",
+            "img": "/static/img/Orders_Baton.png"
+        },
+        {
+            "name": "Order's Emblem",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "In Chaos Order battles, +15% Defense.",
+            "img": "/static/img/Orders_Emblem.png"
+        },
+        {
+            "name": "Palasia's Orb",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When Vulnerable is applied by a card, also 1 Weaken to the target.",
+            "img": "/static/img/Palasias_Orb.png"
+        },
+        {
+            "name": "Pale Eternal Flame",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When a card is Exhausted, increase Damage Amount of alles by % for 1 turn (1 time per turn).",
+            "img": "/static/img/Pale_Eternal_Flame.png"
+        },
+        {
+            "name": "Phytotype Synthetic",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When Shield is gained, increase Damage Amount of the next 1 Attack Card activated by 20% for 1 turn (2 times per turn).",
+            "img": "/static/img/Phytotype_Synthetic.png"
+        },
+        {
+            "name": "Psionic Combat Suit",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When a card is Exhausted, 30% Fixed Shield (5 times per turn).",
+            "img": "/static/img/Psionic_Combat_Suit.png"
+        },
+        {
+            "name": "Quantum Collector",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When an ally uses a Upgrade card, +20% Damage, Shield, and Healing for 1 turn.",
+            "img": "/static/img/Quantum_Collector.png"
+        },
+        {
+            "name": "Rage Potion",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When 4 Attack Cards are activated, increase Damage Amount of the next Attack Card activated by 40%.",
+            "img": "/static/img/Rage_Potion.png"
+        },
+        {
+            "name": "Regenerative Ribcage",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "Max HP +12%.",
+            "img": "/static/img/Regenerative_Ribcage.png"
+        },
+        {
+            "name": "Reinforced Combat Suit",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the end of the turn, if there is no Shield, gain 60% Fixed Shield.",
+            "img": "/static/img/Reinforced_Combat_Suit.png"
+        },
+        {
+            "name": "Replica Core",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When drawing your own Attack Card by an ability, that card +50% Damage Amount for 1 turn.",
+            "img": "/static/img/Replica_Core.png"
+        },
+        {
+            "name": "RFS-17",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+10% Critical Chance of Attack Cards with cost 0.",
+            "img": "/static/img/RFS-17.png"
+        },
+        {
+            "name": "Ring of the Seraphim",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When using a Upgrade card, +30% Damage for 1 turn.",
+            "img": "/static/img/Ring_of_the_Seraphim.png"
+        },
+        {
+            "name": "Ritual Dagger",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When an enemy is defeated, +25% Attack Card Damage (Max 2 times).",
+            "img": "/static/img/Ritual_Dagger.png"
+        },
+        {
+            "name": "Robe of Oblivion",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When Shield is gained through an Exhaust card, increase Damage Amount by 20% for 1 turn (1 time per turn).",
+            "img": "/static/img/Robe_of_Oblivion.png"
+        },
+        {
+            "name": "Rocket-Adorned Cape",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of the battle, 1 Damage Reduction and Draw 1.",
+            "img": "/static/img/Rocket-Adorned_Cape.png"
+        },
+        {
+            "name": "Rune Lance",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "If use more than 5 AP, +25% Damage, Shield Gain, and Healing.",
+            "img": "/static/img/Rune_Lance.png"
+        },
+        {
+            "name": "Second Method",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "Extra Attack damage +30%.",
+            "img": "/static/img/Second_Method.png"
+        },
+        {
+            "name": "Shield of the Watcher",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When taking Damage, 1 Mark on the attacker.",
+            "img": "/static/img/Shield_of_the_Watcher.png"
+        },
+        {
+            "name": "Shining World Tree Stem",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "Increase Heal Amount by 25%.",
+            "img": "/static/img/Shining_World_Tree_Stem.png"
+        },
+        {
+            "name": "Singing Sword",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+15% Attack When dealing Damage to a target with Shield, 1 Punishment.",
+            "img": "/static/img/Singing_Sword.png"
+        },
+        {
+            "name": "Sneering Dagger",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When an enemy is defeated, 2 Vulnerable to all enemies.",
+            "img": "/static/img/Sneering_Dagger.png"
+        },
+        {
+            "name": "Source of the Forbidden",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When hit, inflict 1 random effects among Vulnerable, Weaken, or Impair to the attacker (3 times per turn).",
+            "img": "/static/img/Source_of_the_Forbidden.png"
+        },
+        {
+            "name": "Stele of Heresy",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "Each time 3 cards are Discarded through an ally ability, randomly inflict 1 of either Vulnerable or Mark on a random enemy (5 times per turn)",
+            "img": "/static/img/Stele_of_Heresy.png"
+        },
+        {
+            "name": "Sun-Setting Bow",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "Attack Cards with cost 2 or higher, +30% Damage (1 per turn).",
+            "img": "/static/img/Sun-Setting_Bow.png"
+        },
+        {
+            "name": "Superconductive Protein",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of the battle, change the cost of 1 card in your hand to 0 for 1 turn.",
+            "img": "/static/img/Superconductive_Protein.png"
+        },
+        {
+            "name": "Sword Reflected in the Lake",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "If you have 6 or more cards in hand, +25% Damage.",
+            "img": "/static/img/Sword_Reflected_in_the_Lake.png"
+        },
+        {
+            "name": "The Chosen Vessel",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of your turn after 3 turns from battle start, +250% Fixed Shield.",
+            "img": "/static/img/The_Chosen_Vessel.png"
+        },
+        {
+            "name": "The Destruction of Erysichthon",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When using an Attack Card, 5% chance to +1 hit.",
+            "img": "/static/img/The_Destruction_of_Erysichthon.png"
+        },
+        {
+            "name": "The Flower of Life",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "If at max HP, +50% Damage.",
+            "img": "/static/img/The_Flower_of_Life.png"
+        },
+        {
+            "name": "The Golden Rule",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "+20% Damage, +20% Shield at the start of battle.",
+            "img": "/static/img/The_Golden_Rule.png"
+        },
+        {
+            "name": "Torch That Should Not Be Extinguished",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "If you have Shield at the start of turn, 80% Fixed Shield.",
+            "img": "/static/img/Torch_That_Should_Not_Be_Extinguished.png"
+        },
+        {
+            "name": "Torture Toolbox",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "At the start of turn, +3 Action Count to all enemies.",
+            "img": "/static/img/Torture_Toolbox.png"
+        },
+        {
+            "name": "Trumpet of Revelation",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When Draw a card, +20% Damage for 1 turn (2 per turn).",
+            "img": "/static/img/Trumpet_of_Revelation.png"
+        },
+        {
+            "name": "Twisted Discipline",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When use 10 or more AP, 2 Immunity.",
+            "img": "/static/img/Twisted_Discipline.png"
+        },
+        {
+            "name": "Unconfirmed Recovery Ampule",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When an ally uses a Forbidden Card, Recover 3% of Max HP.",
+            "img": "/static/img/Unconfirmed_Recovery_Ampule.png"
+        },
+        {
+            "name": "Unexploded Plasma Bomb",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When a card is Exhausted, 40% Fixed Damage on a random enemy.",
+            "img": "/static/img/Unexploded_Plasma_Bomb.png"
+        },
+        {
+            "name": "Veiled Thorn",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "If allies do not receive Damage for 1 turn, then at the start of the next turn, increase Damage Amount by 50% for 1 turn.",
+            "img": "/static/img/Veiled_Thorn.png"
+        },
+        {
+            "name": "Verdant Day",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "On odd turns, +8% Attack, 12% Defense.",
+            "img": "/static/img/Verdant_Day.png"
+        },
+        {
+            "name": "Verdant Night",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "On even turns, +12% Attack, 8% Defense.",
+            "img": "/static/img/Verdant_Night.png"
+        },
+        {
+            "name": "Viadeus’s Reactor",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When using a Upgrade card, 1 Damage Reduction.",
+            "img": "/static/img/Viadeuss_Reactor.png"
+        },
+        {
+            "name": "Victor's Laurel",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "Increase Damage Amount of Counterattack by 40%.",
+            "img": "/static/img/Victors_Laurel.png"
+        },
+        {
+            "name": "Vine Lord's Mask",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When Drawing an Exhaust card through an ally ability, 80% Fixed Shield (2 times per turn).",
+            "img": "/static/img/Vine_Lords_Mask.png"
+        },
+        {
+            "name": "Violet Butterfly's Whip",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "+20% Damage for Attack Cards costing 1 or less.",
+            "img": "/static/img/Violet_Butterflys_Whip.png"
+        },
+        {
+            "name": "Voracious Swarm",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "When taking Damage, 4 Agony on the attacker.",
+            "img": "/static/img/Voracious_Swarm.png"
+        },
+        {
+            "name": "W-52 Dopamine Injector",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "When you Draw by an ability, +20% Damage amount for 1 turn (Max 2 times per turn).",
+            "img": "/static/img/W-52_Dopamine_Injector.png"
+        },
+        {
+            "name": "Water Drops of the Goddess",
+            "type": "Trinket",
+            "level": "Legend",
+            "effect": "At the start of battle, 1 Storage.",
+            "img": "/static/img/Water_Drops_of_the_Goddess.png"
+        },
+        {
+            "name": "Wings of Freedom",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When hit, +10% Damage Amount (Max 3 stacks).",
+            "img": "/static/img/Wings_of_Freedom.png"
+        },
+        {
+            "name": "Wings of Light",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "When Ego Points are 3 or lower, 0.2 Ego Points on Critical Hit.",
+            "img": "/static/img/Wings_of_Light.png"
+        },
+        {
+            "name": "Wolves Bane's Spine",
+            "type": "Armor",
+            "level": "Legend",
+            "effect": "On Critical Hit, +10% Fixed Shield.",
+            "img": "/static/img/Wolves_Banes_Spine.png"
+        },
+        {
+            "name": "Yearning Left Hand",
+            "type": "Weapon",
+            "level": "Legend",
+            "effect": "Increase Damage Amount by 30% to targets in a Shockwave state",
+            "img": "/static/img/Yearning_Left_Hand.png"
+        },
+        {
+            "name": "A Lonesome Wedding Ring",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of the turn, Discard 1 random ally Quietus card in hand",
+            "img": "/static/img/A_Lonesome_Wedding_Ring.png"
+        },
+        {
+            "name": "Absolute Zero Tetrahedron",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of battle, +20% Shield.",
+            "img": "/static/img/Absolute_Zero_Tetrahedron.png"
+        },
+        {
+            "name": "Administrator ID Badge",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of the battle, 1 Evade.",
+            "img": "/static/img/Administrator_ID_Badge.png"
+        },
+        {
+            "name": "Amorphous Cube",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of battle, +25% Damage.",
+            "img": "/static/img/Amorphous_Cube.png"
+        },
+        {
+            "name": "Arm of Lost Valor",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When an Attack Card was not activated for 1 turn and the turn ended, create 1 Rocket Punch.",
+            "img": "/static/img/Arm_of_Lost_Valor.png"
+        },
+        {
+            "name": "Assault Gauntlets",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of battle, gain 3 Counterattack.",
+            "img": "/static/img/Assault_Gauntlets.png"
+        },
+        {
+            "name": "Big Game Hunter",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "The first Attack Card used per battle +100% Tenacity Damage.",
+            "img": "/static/img/Big_Game_Hunter.png"
+        },
+        {
+            "name": "Bloodstone of the Void",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When using an Attack Card, Recover HP equal to 6% of Damage dealt (1 per turn).",
+            "img": "/static/img/Bloodstone_of_the_Void.png"
+        },
+        {
+            "name": "Bone Cutter",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When hitting a target under Weakened status, +30% Damage.",
+            "img": "/static/img/Bone_Cutter.png"
+        },
+        {
+            "name": "Brainwave-Blocking Helmet",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When you Draw by an ability, +40% Fixed Shield (5 times per turn).",
+            "img": "/static/img/Brainwave-Blocking_Helmet.png"
+        },
+        {
+            "name": "Broken Golden Quill Pen",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When a Linked card is Discarded through an ability, increase Damage Amount by 20% for 1 turn (1 time per turn)",
+            "img": "/static/img/Broken_Golden_Quill_Pen.png"
+        },
+        {
+            "name": "Bug Killer",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When using an Attack Card, 1 Agony (1 per turn). If in Invader battle, +2 additional Agony.",
+            "img": "/static/img/Bug_Killer.png"
+        },
+        {
+            "name": "Charger of Weathered Glory",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "If a turn is ended while 1 or more AP remaining, at the start of the next turn, create 1 Charged Strike.",
+            "img": "/static/img/Charger_of_Weathered_Glory.png"
+        },
+        {
+            "name": "Cloak of the Heart",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When a card is Discarded through an ally ability, 1 Damage Reduction (1 time per turn)",
+            "img": "/static/img/Cloak_of_the_Heart.png"
+        },
+        {
+            "name": "Clover of the Forest",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When Recover via card, +10% ally Attack for 1 turn (Max 1 stack).",
+            "img": "/static/img/Clover_of_the_Forest.png"
+        },
+        {
+            "name": "Command: #108",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "+40% Attack Card Damage (1 per battle).",
+            "img": "/static/img/Command_108.png"
+        },
+        {
+            "name": "Contaminated Helmet",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "Max HP +6%, Defense +12%.",
+            "img": "/static/img/Contaminated_Helmet.png"
+        },
+        {
+            "name": "Corrupted Gauntlet",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "On Extra Attack, increase Critical Chance by 2% for 1 turn (5 times per turn)",
+            "img": "/static/img/Corrupted_Gauntlet.png"
+        },
+        {
+            "name": "Crustacean Fluider",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When taking damage, after 1 turn, +60% Fixed Shield at start of turn.",
+            "img": "/static/img/Crustacean_Fluider.png"
+        },
+        {
+            "name": "Dull Bone Blade",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "10% Attack, -5% Critical Chance.",
+            "img": "/static/img/Dull_Bone_Blade.png"
+        },
+        {
+            "name": "First Aid Kit",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the end of battle, Recover 5%.",
+            "img": "/static/img/First_Aid_Kit.png"
+        },
+        {
+            "name": "Flashbang",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "At the start of battle, apply 3 Weaken to a random enemy.",
+            "img": "/static/img/Flashbang.png"
+        },
+        {
+            "name": "Gastronomicon",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When using an Attack Card with cost 2 or more, 3 Agony.",
+            "img": "/static/img/Gastronomicon.png"
+        },
+        {
+            "name": "Gladiator's Helmet",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of battle, gain 2 Damage Reduction.",
+            "img": "/static/img/Gladiators_Helmet.png"
+        },
+        {
+            "name": "Golden Bell",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of the battle, decrease Stress of a random ally by 3.",
+            "img": "/static/img/Golden_Bell.png"
+        },
+        {
+            "name": "Gospel of Lament",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When the Action Count of enemies increases, +30% Damage Amount to ally Attack Cards for 1 turn (1 time per turn)",
+            "img": "/static/img/Gospel_of_Lament.png"
+        },
+        {
+            "name": "Harpoon Case of Broken Resolve",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "Create 1 Pierce each odd turn.",
+            "img": "/static/img/Harpoon_Case_of_Broken_Resolve.png"
+        },
+        {
+            "name": "Hyperimmunity Hormone",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When you Draw by an ability, +25% Shield gain for 1 turn (Max 2 times per turn).",
+            "img": "/static/img/Hyperimmunity_Hormone.png"
+        },
+        {
+            "name": "Incomplete Carapace",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the end of the turn, if you have 5 or more Cards in hand, +140% Fixed Shield.",
+            "img": "/static/img/Incomplete_Carapace.png"
+        },
+        {
+            "name": "Launcher of Ruined Honor",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "Create 1 Heavy Blow each even turn.",
+            "img": "/static/img/Launcher_of_Ruined_Honor.png"
+        },
+        {
+            "name": "Lightless Stem",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "Increase Heal Amount by 15%.",
+            "img": "/static/img/Lightless_Stem.png"
+        },
+        {
+            "name": "Lush Seaweed Armor",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When gaining Shield, gain 30% Fixed Shield.",
+            "img": "/static/img/Lush_Seaweed_Armor.png"
+        },
+        {
+            "name": "M.S.S Data Pad",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of Nihilum battle, 2 Vulnerable to all enemies.",
+            "img": "/static/img/MSS_Data_Pad.png"
+        },
+        {
+            "name": "M85 Military Grenade",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When using a Buff card, deal 150% Fixed Damage to all enemies.",
+            "img": "/static/img/M85_Military_Grenade.png"
+        },
+        {
+            "name": "Magic-Infused Sapphire",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of battle, if the Outbreak of War card is in hand, 1 Tenacity Damage to all enemies.",
+            "img": "/static/img/Magic-Infused_Sapphire.png"
+        },
+        {
+            "name": "Mask of Evil Spirits",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When taking damage, after 1 turn, +60% Fixed Shield at start of turn.",
+            "img": "/static/img/Mask_of_Evil_Spirits.png"
+        },
+        {
+            "name": "Millenium Arbor",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When a 3-cost or higher card is activated, 1 Vulnerable to a random enemy.",
+            "img": "/static/img/Millenium_Arbor.png"
+        },
+        {
+            "name": "Moss Armor",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When an ally Attack Card was no activated for 1 turn and the turn ended, 100% Fixed Shield.",
+            "img": "/static/img/Moss_Armor.png"
+        },
+        {
+            "name": "Multifaceted Parallel Universe Nexus",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the start of turn, activate 1 random Initiative card in hand.",
+            "img": "/static/img/Multifaceted_Parallel_Universe_Nexus.png"
+        },
+        {
+            "name": "Nerve Hacking Module",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When an ally uses a Forbidden Card, +20% Damage amount and +20% Shield gain for 1 turn (Max 2 times per turn).",
+            "img": "/static/img/Nerve_Hacking_Module.png"
+        },
+        {
+            "name": "Obsidian Sword",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "Increase damage amount by 12%.",
+            "img": "/static/img/Obsidian_Sword.png"
+        },
+        {
+            "name": "Overcurrent Shock Unit",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When you Draw by an ability, 50% Fixed Damage to a random enemy.",
+            "img": "/static/img/Overcurrent_Shock_Unit.png"
+        },
+        {
+            "name": "Plant Doll",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When 4 Skill Cards are Exhausted, decrease Stress of a random ally by 1.",
+            "img": "/static/img/Plant_Doll.png"
+        },
+        {
+            "name": "Poacher's Pathfinder",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "In Sekred battle, +25% Damage, 2 Vulnerable to all enemies.",
+            "img": "/static/img/Poachers_Pathfinder.png"
+        },
+        {
+            "name": "Proof of Initiation",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "In Chaos Order battles, +10% Defense.",
+            "img": "/static/img/Proof_of_Initiation.png"
+        },
+        {
+            "name": "Resolute Gauntlets",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of Chaos Order battle, +20% Damage, 1 Damage Reduction.",
+            "img": "/static/img/Resolute_Gauntlets.png"
+        },
+        {
+            "name": "Rune Chord",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "If you have any Retained cards at the end of your turn, +60% Fixed Shield.",
+            "img": "/static/img/Rune_Chord.png"
+        },
+        {
+            "name": "Scout's Combat Boots",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "On enemy defeat, +60% Fixed Shield.",
+            "img": "/static/img/Scouts_Combat_Boots.png"
+        },
+        {
+            "name": "Shield of Ashen Sacrifice",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "If Damage is completely blocked, at the start of the next turn, create 1 Shield Blast.",
+            "img": "/static/img/Shield_of_Ashen_Sacrifice.png"
+        },
+        {
+            "name": "Shining Lyre",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of the turn, if an ally Exhaust card is in hand, 60% Fixed Shield.",
+            "img": "/static/img/Shining_Lyre.png"
+        },
+        {
+            "name": "Someone’s Letter",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "At the end of the turn, if an ally Persona Card is in hand, 150% Fixed Damage to a random enemy",
+            "img": "/static/img/Someones_Letter.png"
+        },
+        {
+            "name": "Soul Orb",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When a card is Exhausted, 1 Tenacity Damage to all enemies (1 time per battle).",
+            "img": "/static/img/Soul_Orb.png"
+        },
+        {
+            "name": "Standard Gas Mask",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of battle, gain 1 Immunity.",
+            "img": "/static/img/Standard_Gas_Mask.png"
+        },
+        {
+            "name": "Steeler's Dagger",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "Upon Defeat, +5-10 Credits (1 per battle).",
+            "img": "/static/img/Steelers_Dagger.png"
+        },
+        {
+            "name": "Summoned Lump of Light",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "Increase Damage Amount of the third Attack Card created by 30% for 1 turn.",
+            "img": "/static/img/Summoned_Lump_of_Light.png"
+        },
+        {
+            "name": "Survivor's Hood",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of battle, gain 140% Fixed Shield.",
+            "img": "/static/img/Survivors_Hood.png"
+        },
+        {
+            "name": "Sword of Judgment",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "When a card is Exhausted, increase Damage Amount by 10% for 1 turn (1 time per turn).",
+            "img": "/static/img/Sword_of_Judgment.png"
+        },
+        {
+            "name": "The Fading Flower of Life",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "If at max HP, +40% Damage.",
+            "img": "/static/img/The_Fading_Flower_of_Life.png"
+        },
+        {
+            "name": "The Famished One's Belly",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "When a card is Exhausted, +25% Damage, Recover 5% (1 per battle).",
+            "img": "/static/img/The_Famished_Ones_Belly.png"
+        },
+        {
+            "name": "Time Regulator",
+            "type": "Trinket",
+            "level": "Rare",
+            "effect": "Activate Epiphany for the equipped combatant.",
+            "img": "/static/img/Time_Regulator.png"
+        },
+        {
+            "name": "Titan Combat Suit",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "When taking Damage, Recover 2% HP (1 per turn).",
+            "img": "/static/img/Titan_Combat_Suit.png"
+        },
+        {
+            "name": "Torch of Wrath",
+            "type": "Weapon",
+            "level": "Rare",
+            "effect": "At the start of a turn, apply 2 Mark to a random enemy.",
+            "img": "/static/img/Torch_of_Wrath.png"
+        },
+        {
+            "name": "Vine Camouflage",
+            "type": "Armor",
+            "level": "Rare",
+            "effect": "At the start of the turn, if Health is 30% or less, 1 Evade (2 times per battle).",
+            "img": "/static/img/Vine_Camouflage.png"
+        }
+    ],
+    "chaos_maps": {
+        "Theater of Illusions": [
+            "An Eye Plucked from a Mural",
+            "Dice of Discord",
+            "Bloody Pendant",
+            "Cavalry of Lightning",
+            "Chains of Obsession",
+            "Crushed Angel Feather",
+            "Cursed Doll",
+            "Delicate Collarbone",
+            "Esophagus of Madness",
+            "Hymn-Singing Lips",
+            "Incomprehensible Holy Object",
+            "Key of Sleep",
+            "Lead-Colored Holy Water",
+            "Mask of Emotions",
+            "Nightmare Hairpin",
+            "Order’s Baton",
+            "Ring of the Seraphim",
+            "Stele of Heresy",
+            "The Golden Rule",
+            "Torture Toolbox",
+            "Viadeus’s Reactor",
+            "Wings of Light",
+            "Yearning Left Hand",
+            "A Lonesome Wedding Ring",
+            "Broken Golden Quill Pen",
+            "Cloak of the Heart",
+            "Corrupted Gauntlet",
+            "Gospel of Lament",
+            "Someone’s Letter"
+        ],
+        "Beat Senectus": [
+            "Announcement of Catastrophe",
+            "Dice of Derangement",
+            "Intellect of Discord",
+            "Shell of Aberration",
+            "Sphere of Randomness",
+            "Tentacles of Chaos"
+        ],
+        "Burning Life": [
+            "Bangle of Valor",
+            "Brilliant Eternal Flame",
+            "Liberated Essence",
+            "Combat Drum",
+            "Gladiator's Medallion",
+            "Harp of Conflict",
+            "Leaf of the World Tree",
+            "Luminescent Shroom",
+            "Pale Eternal Flame",
+            "Phytotype Synthetic",
+            "Rage Potion",
+            "Robe of Oblivion",
+            "Shining World Tree Stem",
+            "Veiled Thorn",
+            "Victor's Laurel",
+            "Vine Lord's Mask",
+            "Arm of Lost Valor",
+            "Charger of Weathered Glory",
+            "Golden Bell",
+            "Harpoon Case of Broken Resolve",
+            "Launcher of Ruined Honor",
+            "Lightless Stem",
+            "Millenium Arbor",
+            "Moss Armor",
+            "Plant Doll",
+            "Shield of Ashen Sacrifice",
+            "Shining Lyre",
+            "Summoned Lump of Light",
+            "Sword of Judgment",
+            "Vine Camouflage"
+        ],
+        "Swamp of Judgment": [
+            "Branch of Eternity",
+            "Dormant Seeds",
+            "Mask of Flames",
+            "Star-Lit Cloak",
+            "Verdant Shackles",
+            "Bone Ring of Wildfire",
+            "Branch of the Evil Tree",
+            "Branch of the Sacred Tree",
+            "Call of the Ancient Spirit",
+            "Cavalry of Lightning",
+            "Dagger That Tricked the Shadow",
+            "Fairy King's Crown",
+            "Immortal Scale",
+            "Lead-Colored Holy Water",
+            "Ring of the Seraphim",
+            "Sun-Setting Bow",
+            "Sword Reflected in the Lake",
+            "The Flower of Life",
+            "The Golden Rule",
+            "Verdant Day",
+            "Verdant Night",
+            "Viadeus’s Reactor",
+            "Wings of Light",
+            "Clover of the Forest",
+            "Mask of Evil Spirits",
+            "Poacher's Pathfinder",
+            "The Fading Flower of Life"
+        ],
+        "Laboratory 0": [
+            "Chimeranite",
+            "Emblem of an Exceptional Entity",
+            "Mutagenic Wave Amplifier",
+            "Mutant Predator Spike",
+            "Replica Core",
+            "Rocket-Adorned Cape",
+            "Source of the Forbidden",
+            "Superconductive Protein",
+            "Unconfirmed Recovery Ampule",
+            "W-52 Dopamine Injector",
+            "Wings of Freedom",
+            "Administrator ID Badge",
+            "Brainwave-Blocking Helmet",
+            "Hyperimmunity Hormone",
+            "Incomplete Carapace",
+            "Nerve Hacking Module",
+            "Overcurrent Shock Unit"
+        ],
+        "The Foretold Ruin": [
+            "Consecrated Halo",
+            "Corrupted Core",
+            "Eye of the Punisher",
+            "Primordial Discipline",
+            "Radiant Orb",
+            "Bloody Pendant",
+            "Cavalry of Lightning",
+            "Chains of Obsession",
+            "Corroded Core",
+            "Cursed Doll",
+            "Esophagus of Madness",
+            "Flame of Purification",
+            "Guardian Core",
+            "Lead-Colored Holy Water",
+            "Ring of the Seraphim",
+            "Rune Lance",
+            "Singing Sword",
+            "The Golden Rule",
+            "Torture Toolbox",
+            "Trumpet of Revelation",
+            "Twisted Discipline",
+            "Viadeus’s Reactor",
+            "Wings of Light",
+            "Rune Chord"
+        ],
+        "The Blue Pot": [
+            "Dark Grip's Claws",
+            "Dice of Discord",
+            "Forbidden Bible",
+            "Gloomy Prime's Eye",
+            "Kentris Chitin Armor",
+            "Mutated Order",
+            "Wild Fur Cloak",
+            "Bloody Pendant",
+            "Chains of Obsession",
+            "Chaos Bible",
+            "Crimson Bloodstone",
+            "Cursed Doll",
+            "Esophagus of Madness",
+            "Eternal Stone",
+            "Executioner's Edge",
+            "Madman's Masterpiece",
+            "Mutated Claws",
+            "Nature's Gift",
+            "Nature's Hostility",
+            "Order's Emblem",
+            "Ritual Dagger",
+            "Shield of the Watcher",
+            "The Chosen Vessel",
+            "Torture Toolbox",
+            "Wolves Bane's Spine",
+            "Bloodstone of the Void",
+            "Dull Bone Blade",
+            "Proof of Initiation",
+            "Resolute Gauntlets",
+            "Steeler's Dagger"
+        ],
+        "Twin Star's Shadow": [
+            "Dice of Discord",
+            "Formica's Perfect Spear",
+            "Lepidola's Whip",
+            "Pulsating Egg",
+            "Shell Bug Horn",
+            "Twin Swords of Greater and Lesser Evil",
+            "Wings of the Swarm",
+            "Abyssal Bug Tooth",
+            "Bloody Pendant",
+            "Chains of Obsession",
+            "Cursed Doll",
+            "Dance of the Night Butterflies",
+            "Esophagus of Madness",
+            "Formica's Broken Spear",
+            "Growing Carapace",
+            "Kirak's Core",
+            "Lepidola's Wing",
+            "Natural Predator",
+            "The Destruction of Erysichthon",
+            "Torture Toolbox",
+            "Violet Butterfly's Whip",
+            "Voracious Swarm",
+            "Bug Killer",
+            "Crustacean Fluider",
+            "First Aid Kit"
+        ],
+        "City of Mist": [
+            "Eye of Gluttony",
+            "Foggy Crystal Ball",
+            "Fragment of the Empty Void",
+            "Revelation's of Futility",
+            "Void of the Devourer",
+            "Blood Giant Claw",
+            "Dream of the Devoured",
+            "Eternal Stone",
+            "Eye of the Eyeless",
+            "Flower of Dead Souls",
+            "Gluttonous Tailcoat",
+            "M.S.S Data Pad SE",
+            "M.S.S Scope",
+            "Mutated Claws",
+            "Nature's Gift",
+            "Nature's Hostility",
+            "Palasia's Orb",
+            "Regenerative Ribcage",
+            "Shield of the Watcher",
+            "Torch That Should Not Be Extinguished",
+            "Unexploded Plasma Bomb",
+            "Wolves Bane's Spine",
+            "Contaminated Helmet",
+            "M.S.S Data Pad",
+            "Soul Orb",
+            "The Famished One's Belly"
+        ],
+        "Shop": [
+            "Assault Boots",
+            "Cloud-Walking Shoes",
+            "Crimson Sword",
+            "Dimensional Cube",
+            "Grey Orb",
+            "Heart of Gold",
+            "Heart of the Jewel",
+            "Moon of Destruction",
+            "Mountain of Corpses",
+            "Psionic Combat Suit",
+            "Quantum Collector",
+            "Reinforced Combat Suit",
+            "RFS-17",
+            "Second Method",
+            "Sneering Dagger",
+            "Water Drops of the Goddess",
+            "Absolute Zero Tetrahedron",
+            "Amorphous Cube",
+            "Assault Gauntlets",
+            "Big Game Hunter",
+            "Bone Cutter",
+            "Command: #108",
+            "Flashbang",
+            "Gastronomicon",
+            "Gladiator's Helmet",
+            "Lush Seaweed Armor",
+            "M85 Military Grenade",
+            "Magic-Infused Sapphire",
+            "Multifaceted Parallel Universe Nexus",
+            "Obsidian Sword",
+            "Scout's Combat Boots",
+            "Standard Gas Mask",
+            "Survivor's Hood",
+            "Time Regulator",
+            "Titan Combat Suit",
+            "Torch of Wrath",
+            "Fairy King's Crown"
+        ]
+    }
+}

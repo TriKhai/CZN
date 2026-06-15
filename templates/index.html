@@ -1,0 +1,140 @@
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search Farm Locations</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="/" class="active">🔍 Search Farm Locations</a>
+            <a href="/chaos">🗺️ Chaos Map</a>
+            <a href="/equipment">⚔️ Equipment List</a>
+        </div>
+
+        <div class="container">
+            
+            <div class="card">
+                <h2>Equipment Search</h2>
+                <form action="/" method="get">
+                    <input type="text" name="search_query" value="{{ search_query }}" placeholder="Ex: Nature's Hostility, Pot, Helmet..." style="padding: 15px; width: 80%; display: inline-block; margin-right: 10px;">
+                    <button type="submit" class="btn btn-search" style="padding: 15px 30px;">Search Farm Locations</button>
+                </form>
+
+                {% if search_results %}
+                    <div class="search-results" style="margin-top: 30px;">
+                        
+                        <h2 style="color: #ff8f00; border-bottom: 2px solid #ff8f00; padding-bottom: 8px;">📍Location Farm Together</h2>
+                        
+                        {% if search_results.grouped_common %}
+                            {% for group in search_results.grouped_common %}
+                                <div class="card" style="border-left: 6px solid #ff8f00; background-color: #1a1a1a;">
+                                    <h3 style="margin-top: 0; color: #fff;">
+                                        🔥 Result <span style="color: #4caf50;">{{ group.match_count }} equipment(s)</span> appeared together in 📍{{ group.maps[0] }}
+                                    </h3>
+                                    
+                                    <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 8%; text-align: center; padding: 10px;">Image</th>
+                                                <th style="width: 18%; text-align: left; padding: 10px;">Equipment Name</th>
+                                                <th style="width: 10%; text-align: left; padding: 10px;">Type</th>
+                                                <th style="width: 10%; text-align: left; padding: 10px;">Rarity</th>
+                                                <th style="width: 31%; text-align: left; padding: 10px;">Effect Description</th>
+                                                <th style="background-color: #2e7d32; color: #fff; text-align: center; width: 25%; padding: 10px;">📍 Shared Farm Locations</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for item in group.equip_list %}
+                                            <tr style="border-bottom: 1px solid #333;">
+                                                
+                                                <td style="text-align: center; padding: 10px; vertical-align: middle; width: 100px; max-width: 100px; min-width: 100px;">
+                                                    {% if item.img %}
+                                                        <img src="{{ item.img }}" style="width: 80px !important; height: 80px !important; object-fit: cover; border-radius: 8px; border: 2px solid #444; display: block; margin: 0 auto;">
+                                                    {% else %}
+                                                        <div style="width: 80px; height: 80px; background: #2a2a2a; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 32px; margin: 0 auto; border: 2px solid #444;">📦</div>
+                                                    {% endif %}
+                                                </td>
+                                                
+                                                <td class="text-{{ item.level | lower }}" style="font-weight: bold; padding: 10px; vertical-align: middle; word-wrap: break-word; font-size: 16px;">{{ item.name }}</td>
+                                                
+                                                <td style="padding: 10px; vertical-align: middle; white-space: nowrap;">
+                                                    <span class="badge-{{ item.level | lower }}">{{ item.level }}</span>
+                                                </td>
+                                                
+                                                <td style="padding: 10px; vertical-align: middle; white-space: nowrap; font-weight: 500;">{{ item.type }}</td>
+                                                
+                                                <td style="font-size: 15px; color: #ccc; padding: 10px; vertical-align: middle; line-height: 1.4; word-wrap: break-word;">{{ item.effect }}</td>
+                                                
+                                                {% if loop.first %}
+                                                <td rowspan="{{ group.equip_list | length }}" style="vertical-align: top; background-color: #132515; text-align: left; padding: 15px; border-left: 2px solid #2e7d32; width: 250px;">
+                                                    <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+                                                        {% for map_name in group.maps %}
+                                                            <li style="font-size: 16px; font-weight: bold; color: #fff; white-space: nowrap; margin-bottom: 5px;">📍{{ map_name }}</li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </td>
+                                                {% endif %}
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            <p style="font-size: 16px; color: #aaa;">No maps found with all selected items.</p>
+                        {% endif %}
+
+
+                        <h2 style="color: #2196f3; border-bottom: 2px solid #2196f3; padding-bottom: 8px; margin-top: 40px;">📍Individual Farm Locations</h2>
+                        
+                        <div class="card">
+                            <table style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th style="width: 25%;">Equipment Name</th>
+                                        <th style="width: 15%;">Rarity</th>
+                                        <th style="width: 60%;">🗺️ Chaos Maps Where It Drops</th>
+                                    </tr>
+                                </thead>
+                                    <tbody>
+                                        {% for item_name, maps in search_results.separate.items() %}
+                                            {% set detail = search_results.item_details[item_name] %}
+                                            <tr>
+                                                <td style="text-align: center; vertical-align: middle; width: 120px; padding: 10px;">
+                                                    {% if detail.img %}
+                                                        <img src="{{ detail.img }}" alt="{{ name }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 2px solid #444; display: inline-block; vertical-align: middle;">
+                                                    {% else %}
+                                                        <div style="width: 80px; height: 80px; background: #2a2a2a; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 32px; margin: 0 auto;">📦</div>
+                                                    {% endif %}
+                                                </td>
+                                                <td class="text-{{ detail.level | lower }}" style="vertical-align: middle; font-size: 16px;">{{ item_name }}</td>
+                                                <td>
+                                                    {% if detail %}
+                                                        <span class="badge-{{ detail.level | lower }}">{{ detail.level }}</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td>
+                                                    {% if maps %}
+                                                        {% for m in maps %}
+                                                            <span style="display: inline-block; background: #2d2d2d; padding: 6px 12px; border-radius: 20px; margin: 4px; font-size: 15px; font-weight: bold; border: 1px solid #444;">
+                                                                📍 {{ m }}
+                                                            </span>
+                                                        {% endfor %}
+                                                    {% else %}
+                                                        <span style="color: #777; font-style: italic;">Currently, no maps distribute this item</span>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </body>
+    </html>

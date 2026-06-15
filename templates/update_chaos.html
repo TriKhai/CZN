@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Chaos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">🔍 Search Farm Locations</a>
+        <a href="/chaos" class="active">🗺️ Chaos Maps</a>
+        <a href="/equipment">⚔️ Equipment List</a>
+    </div>
+
+    <div class="container" style="max-width: 600px;">
+        <h1>Update Chaos Location</h1>
+        <div class="card">
+            <form action="/chaos/update" method="post">
+                <label>Select the old location name to change:</label>
+                <select name="old_location" required>
+                    <option value="" disabled selected>-- Chọn Chaos Map --</option>
+                    {% for chaos in chaos_maps.keys() %}
+                        <option value="{{ chaos }}">{{ chaos }}</option>
+                    {% endfor %}
+                </select>
+
+                <label>Enter the new location name:</label>
+                <input type="text" name="new_location" placeholder="Enter new name..." required>
+                
+                <div style="margin-top: 10px;">
+                    <button type="submit" class="btn btn-edit">Confirm Update</button>
+                    <a href="/chaos" class="btn btn-clear" style="background:#555; color:white; margin-left:10px;">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

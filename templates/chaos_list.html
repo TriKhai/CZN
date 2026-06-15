@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chaos Maps</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">🔍 Search Farm Locations</a>
+        <a href="/chaos" class="active">🗺️ Chaos Maps</a>
+        <a href="/equipment">⚔️ Equipment List</a>
+    </div>
+
+    <div class="container">
+        
+        <div class="card" style="max-width: 600px;">
+            <h2>Add New Chaos Location</h2>
+            <form action="/chaos/add" method="post">
+                <input type="text" name="location" placeholder="New Chaos Name (e.g., Blue Pot)" required>
+                <button type="submit" class="btn btn-add">Add to System</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>List of Active Chaos Maps</h2>
+            <a href="/chaos/update-view" class="btn btn-edit" style="margin-bottom: 20px;">➔ Go to Location Rename Page</a>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 70%;">Chaos Location Name</th>
+                        <th style="width: 30%;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for chaos in chaos_maps.keys() %}
+                    <tr>
+                        <td style="font-size: 18px; font-weight: bold;">📍 {{ chaos }}</td>
+                        <td>
+                            <a href="/chaos/delete/{{ chaos }}" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this entire Chaos area?')">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

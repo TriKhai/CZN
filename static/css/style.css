@@ -1,0 +1,252 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+h1 { font-size: 32px; color: #ffffff; margin-bottom: 25px; }
+h2 { font-size: 26px; color: #ffffff; }
+h3 { font-size: 22px; color: #ffb300; }
+
+.navbar {
+    background-color: #1e1e1e;
+    padding: 15px 30px;
+    display: flex;
+    gap: 25px;
+    border-bottom: 2px solid #333;
+}
+.navbar a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Chữ menu to rõ */
+    padding: 5px 10px;
+    transition: color 0.2s;
+}
+.navbar a:hover, .navbar a.active {
+    color: #ff8f00;
+    border-bottom: 2px solid #ff8f00;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+input[type="text"], select, textarea {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.btn-add { background-color: #2e7d32; color: white; }
+.btn-edit { background-color: #1565c0; color: white; }
+.btn-danger { background-color: #c62828; color: white; }
+.btn-search { background-color: #ff8f00; color: black; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1e1e1e;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 15px; 
+    text-align: left;
+    font-size: 16px; 
+    word-break: break-word;
+}
+
+th { background-color: #252525; color: #fff; }
+
+table td[rowspan] {
+    background-color: #162a19 !important;
+    border-left: 2px solid #2e7d32;
+    box-shadow: inset 4px 0px 10px rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+table th {
+    font-size: 18px !important; 
+    padding: 14px 16px !important;
+}
+
+table td {
+    font-size: 17px !important; 
+    padding: 14px 16px !important;
+    line-height: 1.5 !important; 
+    vertical-align: middle !important; 
+}
+
+.text-mystic {
+    color: #c084fc !important;
+    font-weight: bold;
+}
+
+.text-legend {
+    color: #fbbf24 !important; 
+    font-weight: bold;
+}
+
+.text-rare {
+    color: #60a5fa !important; 
+    font-weight: bold;
+}
+
+.badge-mystic, 
+span.badge-mystic {
+    color: #c084fc !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-weight: bold;
+    box-shadow: none !important;
+}
+
+.badge-legend, 
+span.badge-legend {
+    color: #fbbf24 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-weight: bold;
+    box-shadow: none !important;
+}
+
+.badge-rare, 
+span.badge-rare {
+    color: #60a5fa !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-weight: bold;
+    box-shadow: none !important;
+}
+.search-results { margin-top: 20px; }
+.result-box { padding: 15px; border-radius: 6px; margin-bottom: 15px; }
+.common-box { background: #1b5e20; border-left: 5px solid #4caf50; }
+.separate-box { background: #0d47a1; border-left: 5px solid #2196f3; }
+
+
+.form-compact h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ff8f00;
+}
+
+/* Sử dụng CSS Grid chia form làm 3 cột bằng nhau để giảm chiều cao */
+.form-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Hộp cuộn chứa danh sách checkbox Chaos */
+.chaos-checkbox-list {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 10px;
+    height: 125px; /* Giới hạn chiều cao cố định */
+    overflow-y: auto; /* Tự động hiện thanh cuộn dọc khi map nhiều lên */
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.checkbox-item input[type="checkbox"] {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Định dạng cột giữa chứa các input text và select */
+.flex-inputs input[type="text"], 
+.flex-inputs select {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 15px;
+}
+
+.row-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.file-input {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Định dạng cột 3 chứa textarea và button gửi */
+.action-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-group textarea {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: inherit;
+    resize: none;
+    flex-grow: 1; /* Chiếm diện tích còn trống */
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}

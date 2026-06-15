@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Equipment List - Chaos Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">🔍 Search Farm Locations</a>
+        <a href="/chaos">🗺️ Chaos Map</a>
+        <a href="/equipment" class="active">⚔️ Equipment List</a>
+    </div>
+
+    <div class="container">
+        <div class="card form-compact">
+            <h2>Add new Equipment</h2>
+            <form action="/equipment/add" method="post" enctype="multipart/form-data">
+                <div class="form-grid-layout">
+                    <div class="form-group">
+                        <label>Drop Locations (Select multiple):</label>
+                        <div class="chaos-checkbox-list">
+                            {% for chaos in data.keys() %}
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="locations" value="{{ chaos }}"> 📍 {{ chaos }}
+                                </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="form-group flex-inputs">
+                        <div>
+                            <label>Equipment Name:</label>
+                            <input type="text" name="name" placeholder="E.g.: Nature's Hostility" required>
+                        </div>
+                        <div class="row-inputs">
+                            <div>
+                                <label>Type:</label>
+                                <select name="type">
+                                    <option value="Weapon">Weapon</option>
+                                    <option value="Armor">Armor</option>
+                                    <option value="Trinket">Trinket</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Rarity:</label>
+                                <select name="level">
+                                    <option value="Mythic">Mythic</option>
+                                    <option value="Legend" selected>Legend</option>
+                                    <option value="Rare">Rare</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Profile Image:</label>
+                            <input type="file" name="img" accept="image/*" class="file-input">
+                        </div>
+                    </div>
+
+                    <div class="form-group action-group">
+                        <label>Effect Description:</label>
+                        <textarea name="effect" placeholder="Enter effect details..." required></textarea>
+                        <button type="submit" class="btn btn-add btn-block">Save Equipment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="card" style="background-color: #1e1e1e; border: 1px solid #ff8f00; padding: 15px; margin-bottom: 25px;">
+            <h3 style="margin-top: 0; font-size: 18px; color: #ff8f00;">⚡ Quick Search Filters</h3>
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <label style="font-weight: bold; font-size: 14px; color:#aaa; display:block; margin-bottom:5px;">Select Chaos Map:</label>
+                    <select id="filter-chaos" onchange="filterTables()" style="margin-bottom:0;">
+                        <option value="all">-- View All Chaos Maps --</option>
+                        {% for chaos in data.keys() %}
+                            <option value="{{ chaos }}">{{ chaos }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label style="font-weight: bold; font-size: 14px; color:#aaa; display:block; margin-bottom:5px;">Select Equipment Type:</label>
+                    <select id="filter-type" onchange="filterTables()" style="margin-bottom:0;">
+                        <option value="all">-- All Types --</option>
+                        <option value="Weapon">Weapon (Vũ khí)</option>
+                        <option value="Armor">Armor (Giáp)</option>
+                        <option value="Trinket">Trinket (Phụ kiện)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h2>Equipment Distribution Table by Chaos Map</h2>
+        
+        {% for chaos, items in data.items() %}
+        <div class="card chaos-card-block" data-chaos="{{ chaos }}">
+            <h3 style="border-bottom: 1px solid #444; padding-bottom: 10px; margin-top: 0; color: #ffb300;">📍 Map: {{ chaos }}</h3>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 12%; text-align: center;">Image</th>
+                        <th style="width: 20%;">Equipment Name</th>
+                        <th style="width: 12%;">Type</th>
+                        <th style="width: 12%;">Rarity</th>
+                        <th style="width: 32%;">Effect Description</th>
+                        <th style="width: 12%;">Action</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body-items">
+                    {% for item in items %}
+                    <tr class="equipment-row-item" data-type="{{ item.type }}">
+                        <td style="text-align: center; width: 100px; vertical-align: middle;">
+                            {% if item.img %}
+                                <img src="{{ item.img }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 2px solid #444;">
+                            {% else %}
+                                <div style="width: 80px; height: 80px; background: #2a2a2a; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 32px;">📦</div>
+                            {% endif %}
+                        </td>
+                        <td class="text-{{ item.level | lower }}" style="font-weight: bold;">
+                            {{ item.name }}
+                        </td>
+                        <td><span style="font-size: 17px;">{{ item.type }}</span></td>
+                        <td>
+                            <span class="badge-{{ item.level | lower }}">{{ item.level }}</span>
+                        </td>
+                        <td style="font-size: 13px; color: #bbb;">{{ item.effect }}</td>
+                        <td>
+                            <a href="/equipment/update-view/{{ item.name }}" class="btn btn-edit" style="font-size: 13px; padding: 6px 12px; display: block; margin-bottom: 5px;">Update</a>
+                            <a href="/equipment/delete/{{ chaos }}/{{ item.name }}" class="btn btn-danger" style="font-size: 13px; padding: 6px 14px; display: block;" onclick="return confirm('Remove this equipment from the map?')">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    
+                    <tr class="no-data-row" style="display: none;">
+                        <td colspan="6" style="color: #aaa; text-align: center; font-style: italic;">No equipment found matching the selected filters.</td>
+                    </tr>
+
+                    {% if not items %}
+                    <tr class="always-empty-row"><td colspan="6" style="color: #aaa; text-align: center;">No equipment found at this location.</td></tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        function filterTables() {
+            var selectedChaos = document.getElementById("filter-chaos").value;
+            var selectedType = document.getElementById("filter-type").value;
+            
+            // Lấy tất cả các Card bọc bản đồ Chaos
+            var chaosCards = document.querySelectorAll(".chaos-card-block");
+            
+            chaosCards.forEach(function(card) {
+                var cardChaosName = card.getAttribute("data-chaos");
+                
+                // 1. Kiểm tra điều kiện Lọc theo Bản đồ Chaos trước
+                var matchesChaos = (selectedChaos === "all" || selectedChaos === cardChaosName);
+                
+                if (!matchesChaos) {
+                    // Nếu map không khớp, ẩn toàn bộ card map đó đi luôn
+                    card.style.display = "none";
+                } else {
+                    // Nếu map khớp, tiến hành xét tiếp điều kiện Lọc theo Loại vật phẩm trong bảng
+                    card.style.display = "block";
+                    
+                    var rows = card.querySelectorAll(".equipment-row-item");
+                    var visibleRowsCount = 0;
+                    
+                    rows.forEach(function(row) {
+                        var rowType = row.getAttribute("data-type");
+                        var matchesType = (selectedType === "all" || selectedType === rowType);
+                        
+                        if (matchesType) {
+                            row.style.display = ""; // Hiện dòng dữ liệu
+                            visibleRowsCount++;
+                        } else {
+                            row.style.display = "none"; // Ẩn dòng dữ liệu không khớp loại
+                        }
+                    });
+                    
+                    // Quản lý hiển thị dòng thông báo trống dữ liệu rớt đồ
+                    var noDataRow = card.querySelector(".no-data-row");
+                    if (noDataRow) {
+                        if (visibleRowsCount === 0 && rows.length > 0) {
+                            noDataRow.style.display = "";
+                        } else {
+                            noDataRow.style.display = "none";
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

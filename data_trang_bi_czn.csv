@@ -1,0 +1,218 @@
+﻿Tên trang bị,Loại,Độ hiếm,Hiệu ứng / Kỹ năng,Map Chaos,Vị trí file ảnh PNG hoàn chỉnh
+An Eye Plucked from a Mural,Trinket,Mystic,"At the start of the turn, increase Damage Amount of this unit by 20% for each ally Persona Card in hand",Theater of Illusions,czn_equipment_images\An_Eye_Plucked_from_a_Mural.png
+Announcement of Catastrophe,Armor,Mystic,+12% Defense. Decrease the number of Break Recovery cards required by all Combatants by 1.,Beat Senectus,czn_equipment_images\Announcement_of_Catastrophe.png
+Bangle of Valor,Armor,Mystic,"Increase Damage Amount of ally Arena cards by 20%.
+At the start of battle, create 1 Forgotten Sword.",Burning Life,czn_equipment_images\Bangle_of_Valor.png
+Branch of Eternity,Weapon,Mystic,"On Heal or Recover, Fixed Damage to all enemies equal to 50% of Recover amount.",Swamp of Judgment,czn_equipment_images\Branch_of_Eternity.png
+Brilliant Eternal Flame,Weapon,Mystic,Increase Damage Amount of 2-cost or higher Exhaust cards by 40%.,Burning Life,czn_equipment_images\Brilliant_Eternal_Flame.png
+Chimeranite,Weapon,Mystic,"When you Draw by an ability, +35% Damage amount to your own Attack Card(s) for 1 turn (Max 1 time per turn).",Laboratory 0,czn_equipment_images\Chimeranite.png
+Consecrated Halo,Armor,Mystic,+25% Shield Gain,The Foretold Ruin,czn_equipment_images\Consecrated_Halo.png
+Corrupted Core,Trinket,Mystic,"+15% Defense, Retain +20% Shield.",The Foretold Ruin,czn_equipment_images\Corrupted_Core.png
+Dark Grip's Claws,Weapon,Mystic,Increase the damage of attack on all enemies by 25%.,The Blue Pot,czn_equipment_images\Dark_Grips_Claws.png
+Dice of Derangement,Trinket,Mystic,"+8% max HP. At the end of battle, if HP below 50%, recover 8% max HP. If HP is 50% or higher, -5 for the combatant with the highest Stress.",Beat Senectus,czn_equipment_images\Dice_of_Derangement.png
+Dice of Discord,Trinket,Mystic,"At the end of turn, 40% x 2-6 Fixed Damage to a random enemies, and trigger 200% Fixed Damage on allies with one random 1 effect.","The Blue Pot, Twin Star's Shadow, Theater of Illusions",czn_equipment_images\Dice_of_Discord.png
+Dormant Seeds,Trinket,Mystic,"On gaining Shield, +100% Fixed Shield (1 per turn).",Swamp of Judgment,czn_equipment_images\Dormant_Seeds.png
+Eye of Gluttony,Trinket,Mystic,"+40% Damage. At the end of the turn, 30% chance to Exhaust 1 card in hand.",City of Mist,czn_equipment_images\Eye_of_Gluttony.png
+Eye of the Punisher,Trinket,Mystic,"If the enemy is alone, increase damage by 30%.",The Foretold Ruin,czn_equipment_images\Eye_of_the_Punisher.png
+Foggy Crystal Ball,Weapon,Mystic,40% Damage for Attack cards with Cost 0.,City of Mist,czn_equipment_images\Foggy_Crystal_Ball.png
+Forbidden Bible,Trinket,Mystic,"At the start of your turn after 4 turns from battle start, 550% Fixed Damage to all enemies.",The Blue Pot,czn_equipment_images\Forbidden_Bible.png
+Formica's Perfect Spear,Weapon,Mystic,+7% Damage per enemy. +10% All-Attack Damage.,Twin Star's Shadow,czn_equipment_images\Formicas_Perfect_Spear.png
+Fragment of the Empty Void,Armor,Mystic,"At the start of battle, Discard up to 3 cards, Draw equal to the number.",City of Mist,czn_equipment_images\Fragment_of_the_Empty_Void.png
+Gloomy Prime's Eye,Trinket,Mystic,"At the start of battle, +40% Shield.",The Blue Pot,czn_equipment_images\Gloomy_Primes_Eye.png
+Intellect of Discord,Weapon,Mystic,"+18% Attack. On Ravage, allies' Stress -1.",Beat Senectus,czn_equipment_images\Intellect_of_Discord.png
+Kentris Chitin Armor,Armor,Mystic,+15% Ally Shield Gain.,The Blue Pot,czn_equipment_images\Kentris_Chitin_Armor.png
+Lepidola's Whip,Weapon,Mystic,+25% Damage for Attack Cards costing 1 or less.,Twin Star's Shadow,czn_equipment_images\Lepidolas_Whip.png
+Liberated Essence,Trinket,Mystic,"At the start of the turn, decrease Cost of 1 random Exhaust card in hand by 1 for 1 turn.",Burning Life,czn_equipment_images\Liberated_Essence.png
+Mask of Flames,Armor,Mystic,Increase damage dealt to Vulnerable targets by 35%.,Swamp of Judgment,czn_equipment_images\Mask_of_Flames.png
+Mutated Order,Weapon,Mystic,Increase Damage Amount by 25% against targets that haven't acted.,The Blue Pot,czn_equipment_images\Mutated_Order.png
+Primordial Discipline,Armor,Mystic,"At the start of battle, gain 2 Immunity.",The Foretold Ruin,czn_equipment_images\Primordial_Discipline.png
+Pulsating Egg,Trinket,Mystic,"+15% Attack, +10% Max HP.",Twin Star's Shadow,czn_equipment_images\Pulsating_Egg.png
+Radiant Orb,Weapon,Mystic,+25% Damage to targets with Shield.,The Foretold Ruin,czn_equipment_images\Radiant_Orb.png
+Revelation's of Futility,Trinket,Mystic,"When using Attack Cards, +20% Fixed Shield (10 per turn).",City of Mist,czn_equipment_images\Revelations_of_Futility.png
+Shell Bug Horn,Weapon,Mystic,+20% Critical Damage.,Twin Star's Shadow,czn_equipment_images\Shell_Bug_Horn.png
+Shell of Aberration,Armor,Mystic,"+12% Defense. When Stress increases, 50% chance to increase Stress by 1 less.",Beat Senectus,czn_equipment_images\Shell_of_Aberration.png
+Sphere of Randomness,Trinket,Mystic,"+10% max HP. At the start of battle, +1 AP, Draw 1.",Beat Senectus,czn_equipment_images\Sphere_of_Randomness.png
+Star-Lit Cloak,Armor,Mystic,-10% Damage (1 per turn).,Swamp of Judgment,czn_equipment_images\Star-Lit_Cloak.png
+Tentacles of Chaos,Weapon,Mystic,"+8% ally Attack Upon enemy Defeat, -2 Stress to the Combatant with the highest Stress.",Beat Senectus,czn_equipment_images\Tentacles_of_Chaos.png
+Twin Swords of Greater and Lesser Evil,Weapon,Mystic,+30% Damage against Ravaged targets.,Twin Star's Shadow,czn_equipment_images\Twin_Swords_of_Greater_and_Lesser_Evil.png
+Verdant Shackles,Trinket,Mystic,"+12% Attack, +12% Defense.",Swamp of Judgment,czn_equipment_images\Verdant_Shackles.png
+Void of the Devourer,Weapon,Mystic,"When a card is Exhausted, next card used +35% Damage stacks up to 1 time.",City of Mist,czn_equipment_images\Void_of_the_Devourer.png
+Wild Fur Cloak,Armor,Mystic,"At turn start, Counter 1.",The Blue Pot,czn_equipment_images\Wild_Fur_Cloak.png
+Wings of the Swarm,Armor,Mystic,"At the start of battle, gain 2 Immunity.",Twin Star's Shadow,czn_equipment_images\Wings_of_the_Swarm.png
+Abyssal Bug Tooth,Weapon,Legend,"On Critical Hit, 50% chance to 1 Agony.",Twin Star's Shadow,czn_equipment_images\Abyssal_Bug_Tooth.png
+Assault Boots,Armor,Legend,"At the start of your turn after 2 turns from battle start, +200% Fixed Shield.",Shop,czn_equipment_images\Assault_Boots.png
+Blood Giant Claw,Weapon,Legend,"On Ravage, 150% Fixed Damage to the target.",City of Mist,czn_equipment_images\Blood_Giant_Claw.png
+Bloody Pendant,Trinket,Legend,"When using Duplicated Cards, all enemies' Action Count does not decrease for 1 turn (1 per battle).","The Blue Pot, Twin Star's Shadow, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Bloody_Pendant.png
+Bone Ring of Wildfire,Trinket,Legend,"When using a Upgrade card, +30% Damage for 1 turn.",Swamp of Judgment,czn_equipment_images\Bone_Ring_of_Wildfire.png
+Branch of the Evil Tree,Weapon,Legend,"On Heal or Recover, Fixed Damage to a random enemy equal to 50% of Recover amount.",Swamp of Judgment,czn_equipment_images\Branch_of_the_Evil_Tree.png
+Branch of the Sacred Tree,Weapon,Legend,"On Heal or Recover, Fixed Damage to all enemies equal to 35% of Heal amount.",Swamp of Judgment,czn_equipment_images\Branch_of_the_Sacred_Tree.png
+Call of the Ancient Spirit,Trinket,Legend,"On Critical Hit, Heal 10%.",Swamp of Judgment,czn_equipment_images\Call_of_the_Ancient_Spirit.png
+Cavalry of Lightning,Weapon,Legend,"When dealing Damage to a target with Shield, +100% Damage to the next Attack Card.","Swamp of Judgment, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Cavalry_of_Lightning.png
+Chains of Obsession,Armor,Legend,"When using Attack cards, 1% HP Reduction, 60% Fixed Shield.","The Blue Pot, Twin Star's Shadow, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Chains_of_Obsession.png
+Chaos Bible,Trinket,Legend,"At the start of your turn after 4 turns from battle start, 400% Fixed Damage to all enemies.",The Blue Pot,czn_equipment_images\Chaos_Bible.png
+Cloud-Walking Shoes,Armor,Legend,"When an ally inflicts Ravage, +40% Fixed Shield.",Shop,czn_equipment_images\Cloud-Walking_Shoes.png
+Combat Drum,Trinket,Legend,"When 5 Skill Cards are created, increase Damage Amount of the next ally card activated by 20% (max 1 stack).",Burning Life,czn_equipment_images\Combat_Drum.png
+Corroded Core,Trinket,Legend,"If an attack is perfectly blocked with Shield, 1 Impair on all enemies (1 per turn).",The Foretold Ruin,czn_equipment_images\Corroded_Core.png
+Crimson Bloodstone,Trinket,Legend,"On using an Attack card, Recover Health equal to 9% of the damage dealt (1 per turn).",The Blue Pot,czn_equipment_images\Crimson_Bloodstone.png
+Crimson Sword,Weapon,Legend,"When dealing Damage with a targeting Attack Card, 3 Agony (1 per turn).",Shop,czn_equipment_images\Crimson_Sword.png
+Crushed Angel Feather,Armor,Legend,"When ally Linked cards are used, increase Action Count of all enemies by 2 (1 time per turn)",Theater of Illusions,czn_equipment_images\Crushed_Angel_Feather.png
+Cursed Doll,Armor,Legend,"At the start of turn, Heal 60% for each Status Ailment and Curse card in hand.","The Blue Pot, Twin Star's Shadow, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Cursed_Doll.png
+Dagger That Tricked the Shadow,Weapon,Legend,+12% Critical Damage.,Swamp of Judgment,czn_equipment_images\Dagger_That_Tricked_the_Shadow.png
+Dance of the Night Butterflies,Armor,Legend,"On Ravage, +60% Fixed Shield.",Twin Star's Shadow,czn_equipment_images\Dance_of_the_Night_Butterflies.png
+Delicate Collarbone,Armor,Legend,"At the start of the turn, if an ally Persona Card is in hand, decrease Stress of allies by 2",Theater of Illusions,czn_equipment_images\Delicate_Collarbone.png
+Dimensional Cube,Trinket,Legend,"When a card is Discarded, +15% Damage Amount for 1 turn (max 3 stacks).",Shop,czn_equipment_images\Dimensional_Cube.png
+Dream of the Devoured,Weapon,Legend,"When a card is Exhausted, next card used +25% Damage stacks up to 1 time.",City of Mist,czn_equipment_images\Dream_of_the_Devoured.png
+Emblem of an Exceptional Entity,Trinket,Legend,+30% Damage Amount. Stress received becomes 0 (1 for each battle).,Laboratory 0,czn_equipment_images\Emblem_of_an_Exceptional_Entity.png
+Esophagus of Madness,Weapon,Legend,+20% Damage against targets with Agony.,"The Blue Pot, Twin Star's Shadow, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Esophagus_of_Madness.png
+Eternal Stone,Trinket,Legend,"At the start of turn, +25% Fixed Shield equal to the number of enemies.","The Blue Pot, City of Mist",czn_equipment_images\Eternal_Stone.png
+Executioner's Edge,Weapon,Legend,"Against enemies with HP below 50%, +35% Damage.",The Blue Pot,czn_equipment_images\Executioners_Edge.png
+Eye of the Eyeless,Trinket,Legend,Increase damage of Basic attack cards by 40%.,City of Mist,czn_equipment_images\Eye_of_the_Eyeless.png
+Fairy King's Crown,Armor,Legend,+6% Critical Chance.,Swamp of Judgment,czn_equipment_images\Fairy_Kings_Crown.png
+Flame of Purification,Weapon,Legend,"When a card is Exhausted, 1 Retribution on a random enemy (2 per turn).",The Foretold Ruin,czn_equipment_images\Flame_of_Purification.png
+Flower of Dead Souls,Trinket,Legend,"From the second Attack Card each turn onward, +20% Damage.",City of Mist,czn_equipment_images\Flower_of_Dead_Souls.png
+Formica's Broken Spear,Weapon,Legend,+6% Damage per enemy.,Twin Star's Shadow,czn_equipment_images\Formicas_Broken_Spear.png
+Gladiator's Medallion,Trinket,Legend,"When Shield is gained 3 times through cards, 100% Fixed Damage to all enemies.",Burning Life,czn_equipment_images\Gladiators_Medallion.png
+Gluttonous Tailcoat,Armor,Legend,"When taking damage, after 1 turn, +80% Fixed Shield at start of turn.",City of Mist,czn_equipment_images\Gluttonous_Tailcoat.png
+Grey Orb,Trinket,Legend,"At the start of battle, gain 3 Damage Reduction.",Shop,czn_equipment_images\Grey_Orb.png
+Growing Carapace,Armor,Legend,"At the start of the turn, gain 40% Fixed Shield.",Twin Star's Shadow,czn_equipment_images\Growing_Carapace.png
+Guardian Core,Trinket,Legend,"If an enemy with an intent to Attack is present, +60% Fixed Shield (1 per turn).",The Foretold Ruin,czn_equipment_images\Guardian_Core.png
+Harp of Conflict,Weapon,Legend,"For 1 turn, when each of Damage, Shield, and Heal has been activated through cards by allies, increase Damage Amount of allies by 15% for 1 turn.",Burning Life,czn_equipment_images\Harp_of_Conflict.png
+Heart of Gold,Trinket,Legend,"At the end of battle, if HP is below 50%, Recover 8%.",Shop,czn_equipment_images\Heart_of_Gold.png
+Heart of the Jewel,Trinket,Legend,X is applied as X+1.,Shop,czn_equipment_images\Heart_of_the_Jewel.png
+Hymn-Singing Lips,Trinket,Legend,"When a card is Discarded through an ability, 1 Resonance to all enemies (3 times per turn)",Theater of Illusions,czn_equipment_images\Hymn-Singing_Lips.png
+Immortal Scale,Armor,Legend,"When gaining Counterattack via an ability, +1 additional Counterattack.",Swamp of Judgment,czn_equipment_images\Immortal_Scale.png
+Incomprehensible Holy Object,Armor,Legend,"Each time a Quietus card is Discarded through an ability, 80% Fixed Shield (2 times per turn)",Theater of Illusions,czn_equipment_images\Incomprehensible_Holy_Object.png
+Key of Sleep,Weapon,Legend,"+40% Damage Amount to Attack Cards
+When the target count of the Attack Card is 2 or more, -10% Damage Amount for each target (max -30%)",Theater of Illusions,czn_equipment_images\Key_of_Sleep.png
+Kirak's Core,Trinket,Legend,"At the start of turn, if HP below 40% max HP, Recover 5%.",Twin Star's Shadow,czn_equipment_images\Kiraks_Core.png
+Lead-Colored Holy Water,Trinket,Legend,"On Ravage, 2 Impair to the target.","Swamp of Judgment, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Lead-Colored_Holy_Water.png
+Leaf of the World Tree,Trinket,Legend,"When 3 cards of 2-cost or higher are used, Stockpile. (Stockpile = Retain AP, on activation, decrease Stockpile by 1).",Burning Life,czn_equipment_images\Leaf_of_the_World_Tree.png
+Lepidola's Wing,Trinket,Legend,"At the start of battle, 1 Evade.",Twin Star's Shadow,czn_equipment_images\Lepidolas_Wing.png
+Luminescent Shroom,Trinket,Legend,Double the effect of Spore Propagation on the 6th Attack Card created for 1 turn.,Burning Life,czn_equipment_images\Luminescent_Shroom.png
+M.S.S Data Pad SE,Trinket,Legend,"At the start of Nihilum battle, 3 Vulnerable to all enemies.",City of Mist,czn_equipment_images\MSS_Data_Pad_SE.png
+M.S.S Scope,Armor,Legend,"If a harmful effect is inflicted for 1 turn, then +80% Fixed Shield at the end of turn.",City of Mist,czn_equipment_images\MSS_Scope.png
+Madman's Masterpiece,Trinket,Legend,"At the start of an Elite Battle, +50% Damage.",The Blue Pot,czn_equipment_images\Madmans_Masterpiece.png
+Mask of Emotions,Armor,Legend,"When attacked, 2 Resonance to the attacker (3 times per turn)",Theater of Illusions,czn_equipment_images\Mask_of_Emotions.png
+Moon of Destruction,Trinket,Legend,"At the start of battle, 200% Fixed Damage to all enemies.",Shop,czn_equipment_images\Moon_of_Destruction.png
+Mountain of Corpses,Weapon,Legend,+25% Attack Card Damage (1 per turn).,Shop,czn_equipment_images\Mountain_of_Corpses.png
+Mutagenic Wave Amplifier,Weapon,Legend,"When Drawing a Status Ailment or Curse Card, +12% Damage Amount for 1 turn.",Laboratory 0,czn_equipment_images\Mutagenic_Wave_Amplifier.png
+Mutant Predator Spike,Weapon,Legend,"When there are 4 or more cards in hand, increase Damage Amount by 30%.",Laboratory 0,czn_equipment_images\Mutant_Predator_Spike.png
+Mutated Claws,Weapon,Legend,"When drawing a Status Ailment or Curse card, +15% Damage for 1 turn.","The Blue Pot, City of Mist",czn_equipment_images\Mutated_Claws.png
+Natural Predator,Trinket,Legend,"On Ravage, +100% Damage to next 1 Attack Card used.",Twin Star's Shadow,czn_equipment_images\Natural_Predator.png
+Nature's Gift,Trinket,Legend,Heal 40% at the end of turn.,"The Blue Pot, City of Mist",czn_equipment_images\Natures_Gift.png
+Nature's Hostility,Weapon,Legend,"When an enemy is defeated, 200% Fixed Damage to all enemies.","The Blue Pot, City of Mist",czn_equipment_images\Natures_Hostility.png
+Nightmare Hairpin,Armor,Legend,"When a single target Attack Card is used, increase Action Count of the targeted enemy by 2 (1 time per turn)",Theater of Illusions,czn_equipment_images\Nightmare_Hairpin.png
+Order’s Baton,Weapon,Legend,"Each time a card is created, +20% Damage Amount for 1 turn (2 times per turn)",Theater of Illusions,czn_equipment_images\Orders_Baton.png
+Order's Emblem,Trinket,Legend,"In Chaos Order battles, +15% Defense.",The Blue Pot,czn_equipment_images\Orders_Emblem.png
+Palasia's Orb,Trinket,Legend,"When Vulnerable is applied by a card, also 1 Weaken to the target.",City of Mist,czn_equipment_images\Palasias_Orb.png
+Pale Eternal Flame,Weapon,Legend,"When a card is Exhausted, increase Damage Amount of alles by % for 1 turn (1 time per turn).",Burning Life,czn_equipment_images\Pale_Eternal_Flame.png
+Phytotype Synthetic,Armor,Legend,"When Shield is gained, increase Damage Amount of the next 1 Attack Card activated by 20% for 1 turn (2 times per turn).",Burning Life,czn_equipment_images\Phytotype_Synthetic.png
+Psionic Combat Suit,Armor,Legend,"When a card is Exhausted, 30% Fixed Shield (5 times per turn).",Shop,czn_equipment_images\Psionic_Combat_Suit.png
+Quantum Collector,Trinket,Legend,"When an ally uses a Upgrade card, +20% Damage, Shield, and Healing for 1 turn.",Shop,czn_equipment_images\Quantum_Collector.png
+Rage Potion,Trinket,Legend,"When 4 Attack Cards are activated, increase Damage Amount of the next Attack Card activated by 40%.",Burning Life,czn_equipment_images\Rage_Potion.png
+Regenerative Ribcage,Armor,Legend,Max HP +12%.,City of Mist,czn_equipment_images\Regenerative_Ribcage.png
+Reinforced Combat Suit,Armor,Legend,"At the end of the turn, if there is no Shield, gain 60% Fixed Shield.",Shop,czn_equipment_images\Reinforced_Combat_Suit.png
+Replica Core,Weapon,Legend,"When drawing your own Attack Card by an ability, that card +50% Damage Amount for 1 turn.",Laboratory 0,czn_equipment_images\Replica_Core.png
+RFS-17,Weapon,Legend,+10% Critical Chance of Attack Cards with cost 0.,Shop,czn_equipment_images\RFS-17.png
+Ring of the Seraphim,Armor,Legend,"When using a Upgrade card, +30% Damage for 1 turn.","Swamp of Judgment, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Ring_of_the_Seraphim.png
+Ritual Dagger,Weapon,Legend,"When an enemy is defeated, +25% Attack Card Damage (Max 2 times).",The Blue Pot,czn_equipment_images\Ritual_Dagger.png
+Robe of Oblivion,Armor,Legend,"When Shield is gained through an Exhaust card, increase Damage Amount by 20% for 1 turn (1 time per turn).",Burning Life,czn_equipment_images\Robe_of_Oblivion.png
+Rocket-Adorned Cape,Armor,Legend,"At the start of the battle, 1 Damage Reduction and Draw 1.",Laboratory 0,czn_equipment_images\Rocket-Adorned_Cape.png
+Rune Lance,Weapon,Legend,"If use more than 5 AP, +25% Damage, Shield Gain, and Healing.",The Foretold Ruin,czn_equipment_images\Rune_Lance.png
+Second Method,Weapon,Legend,Extra Attack damage +30%.,Shop,czn_equipment_images\Second_Method.png
+Shield of the Watcher,Armor,Legend,"When taking Damage, 1 Mark on the attacker.","The Blue Pot, City of Mist",czn_equipment_images\Shield_of_the_Watcher.png
+Shining World Tree Stem,Trinket,Legend,Increase Heal Amount by 25%.,Burning Life,czn_equipment_images\Shining_World_Tree_Stem.png
+Singing Sword,Weapon,Legend,"+15% Attack When dealing Damage to a target with Shield, 1 Punishment.",The Foretold Ruin,czn_equipment_images\Singing_Sword.png
+Sneering Dagger,Weapon,Legend,"When an enemy is defeated, 2 Vulnerable to all enemies.",Shop,czn_equipment_images\Sneering_Dagger.png
+Source of the Forbidden,Trinket,Legend,"When hit, inflict 1 random effects among Vulnerable, Weaken, or Impair to the attacker (3 times per turn).",Laboratory 0,czn_equipment_images\Source_of_the_Forbidden.png
+Stele of Heresy,Trinket,Legend,"Each time 3 cards are Discarded through an ally ability, randomly inflict 1 of either Vulnerable or Mark on a random enemy (5 times per turn)",Theater of Illusions,czn_equipment_images\Stele_of_Heresy.png
+Sun-Setting Bow,Weapon,Legend,"Attack Cards with cost 2 or higher, +30% Damage (1 per turn).",Swamp of Judgment,czn_equipment_images\Sun-Setting_Bow.png
+Superconductive Protein,Trinket,Legend,"At the start of the battle, change the cost of 1 card in your hand to 0 for 1 turn.",Laboratory 0,czn_equipment_images\Superconductive_Protein.png
+Sword Reflected in the Lake,Weapon,Legend,"If you have 6 or more cards in hand, +25% Damage.",Swamp of Judgment,czn_equipment_images\Sword_Reflected_in_the_Lake.png
+The Chosen Vessel,Armor,Legend,"At the start of your turn after 3 turns from battle start, +250% Fixed Shield.",The Blue Pot,czn_equipment_images\The_Chosen_Vessel.png
+The Destruction of Erysichthon,Weapon,Legend,"When using an Attack Card, 5% chance to +1 hit.",Twin Star's Shadow,czn_equipment_images\The_Destruction_of_Erysichthon.png
+The Flower of Life,Weapon,Legend,"If at max HP, +50% Damage.",Swamp of Judgment,czn_equipment_images\The_Flower_of_Life.png
+The Golden Rule,Trinket,Legend,"+20% Damage, +20% Shield at the start of battle.","Swamp of Judgment, The Foretold Ruin, Theater of Illusions",czn_equipment_images\The_Golden_Rule.png
+Torch That Should Not Be Extinguished,Trinket,Legend,"If you have Shield at the start of turn, 80% Fixed Shield.",City of Mist,czn_equipment_images\Torch_That_Should_Not_Be_Extinguished.png
+Torture Toolbox,Armor,Legend,"At the start of turn, +3 Action Count to all enemies.","The Blue Pot, Twin Star's Shadow, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Torture_Toolbox.png
+Trumpet of Revelation,Weapon,Legend,"When Draw a card, +20% Damage for 1 turn (2 per turn).",The Foretold Ruin,czn_equipment_images\Trumpet_of_Revelation.png
+Twisted Discipline,Armor,Legend,"When use 10 or more AP, 2 Immunity.",The Foretold Ruin,czn_equipment_images\Twisted_Discipline.png
+Unconfirmed Recovery Ampule,Trinket,Legend,"When an ally uses a Forbidden Card, Recover 3% of Max HP.",Laboratory 0,czn_equipment_images\Unconfirmed_Recovery_Ampule.png
+Unexploded Plasma Bomb,Weapon,Legend,"When a card is Exhausted, 40% Fixed Damage on a random enemy.",City of Mist,czn_equipment_images\Unexploded_Plasma_Bomb.png
+Veiled Thorn,Weapon,Legend,"If allies do not receive Damage for 1 turn, then at the start of the next turn, increase Damage Amount by 50% for 1 turn.",Burning Life,czn_equipment_images\Veiled_Thorn.png
+Verdant Day,Trinket,Legend,"On odd turns, +8% Attack, 12% Defense.",Swamp of Judgment,czn_equipment_images\Verdant_Day.png
+Verdant Night,Trinket,Legend,"On even turns, +12% Attack, 8% Defense.",Swamp of Judgment,czn_equipment_images\Verdant_Night.png
+Viadeus’s Reactor,Trinket,Legend,"When using a Upgrade card, 1 Damage Reduction.","Swamp of Judgment, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Viadeuss_Reactor.png
+Victor's Laurel,Armor,Legend,Increase Damage Amount of Counterattack by 40%.,Burning Life,czn_equipment_images\Victors_Laurel.png
+Vine Lord's Mask,Armor,Legend,"When Drawing an Exhaust card through an ally ability, 80% Fixed Shield (2 times per turn).",Burning Life,czn_equipment_images\Vine_Lords_Mask.png
+Violet Butterfly's Whip,Weapon,Legend,+20% Damage for Attack Cards costing 1 or less.,Twin Star's Shadow,czn_equipment_images\Violet_Butterflys_Whip.png
+Voracious Swarm,Trinket,Legend,"When taking Damage, 4 Agony on the attacker.",Twin Star's Shadow,czn_equipment_images\Voracious_Swarm.png
+W-52 Dopamine Injector,Weapon,Legend,"When you Draw by an ability, +20% Damage amount for 1 turn (Max 2 times per turn).",Laboratory 0,czn_equipment_images\W-52_Dopamine_Injector.png
+Water Drops of the Goddess,Trinket,Legend,"At the start of battle, 1 Storage.",Shop,czn_equipment_images\Water_Drops_of_the_Goddess.png
+Wings of Freedom,Armor,Legend,"When hit, +10% Damage Amount (Max 3 stacks).",Laboratory 0,czn_equipment_images\Wings_of_Freedom.png
+Wings of Light,Armor,Legend,"When Ego Points are 3 or lower, 0.2 Ego Points on Critical Hit.","Swamp of Judgment, The Foretold Ruin, Theater of Illusions",czn_equipment_images\Wings_of_Light.png
+Wolves Bane's Spine,Armor,Legend,"On Critical Hit, +10% Fixed Shield.","The Blue Pot, City of Mist",czn_equipment_images\Wolves_Banes_Spine.png
+Yearning Left Hand,Weapon,Legend,Increase Damage Amount by 30% to targets in a Shockwave state,Theater of Illusions,czn_equipment_images\Yearning_Left_Hand.png
+A Lonesome Wedding Ring,Trinket,Rare,"At the start of the turn, Discard 1 random ally Quietus card in hand",Theater of Illusions,czn_equipment_images\A_Lonesome_Wedding_Ring.png
+Absolute Zero Tetrahedron,Trinket,Rare,"At the start of battle, +20% Shield.",Shop,czn_equipment_images\Absolute_Zero_Tetrahedron.png
+Administrator ID Badge,Trinket,Rare,"At the start of the battle, 1 Evade.",Laboratory 0,czn_equipment_images\Administrator_ID_Badge.png
+Amorphous Cube,Trinket,Rare,"At the start of battle, +25% Damage.",Shop,czn_equipment_images\Amorphous_Cube.png
+Arm of Lost Valor,Weapon,Rare,"When an Attack Card was not activated for 1 turn and the turn ended, create 1 Rocket Punch.",Burning Life,czn_equipment_images\Arm_of_Lost_Valor.png
+Assault Gauntlets,Armor,Rare,"At the start of battle, gain 3 Counterattack.",Shop,czn_equipment_images\Assault_Gauntlets.png
+Big Game Hunter,Weapon,Rare,The first Attack Card used per battle +100% Tenacity Damage.,Shop,czn_equipment_images\Big_Game_Hunter.png
+Bloodstone of the Void,Trinket,Rare,"When using an Attack Card, Recover HP equal to 6% of Damage dealt (1 per turn).",The Blue Pot,czn_equipment_images\Bloodstone_of_the_Void.png
+Bone Cutter,Weapon,Rare,"When hitting a target under Weakened status, +30% Damage.",Shop,czn_equipment_images\Bone_Cutter.png
+Brainwave-Blocking Helmet,Armor,Rare,"When you Draw by an ability, +40% Fixed Shield (5 times per turn).",Laboratory 0,czn_equipment_images\Brainwave-Blocking_Helmet.png
+Broken Golden Quill Pen,Weapon,Rare,"When a Linked card is Discarded through an ability, increase Damage Amount by 20% for 1 turn (1 time per turn)",Theater of Illusions,czn_equipment_images\Broken_Golden_Quill_Pen.png
+Bug Killer,Weapon,Rare,"When using an Attack Card, 1 Agony (1 per turn). If in Invader battle, +2 additional Agony.",Twin Star's Shadow,czn_equipment_images\Bug_Killer.png
+Charger of Weathered Glory,Trinket,Rare,"If a turn is ended while 1 or more AP remaining, at the start of the next turn, create 1 Charged Strike.",Burning Life,czn_equipment_images\Charger_of_Weathered_Glory.png
+Cloak of the Heart,Armor,Rare,"When a card is Discarded through an ally ability, 1 Damage Reduction (1 time per turn)",Theater of Illusions,czn_equipment_images\Cloak_of_the_Heart.png
+Clover of the Forest,Trinket,Rare,"When Recover via card, +10% ally Attack for 1 turn (Max 1 stack).",Swamp of Judgment,czn_equipment_images\Clover_of_the_Forest.png
+Command: #108,Weapon,Rare,+40% Attack Card Damage (1 per battle).,Shop,czn_equipment_images\Command_108.png
+Contaminated Helmet,Armor,Rare,"Max HP +6%, Defense +12%.",City of Mist,czn_equipment_images\Contaminated_Helmet.png
+Corrupted Gauntlet,Weapon,Rare,"On Extra Attack, increase Critical Chance by 2% for 1 turn (5 times per turn)",Theater of Illusions,czn_equipment_images\Corrupted_Gauntlet.png
+Crustacean Fluider,Armor,Rare,"When taking damage, after 1 turn, +60% Fixed Shield at start of turn.",Twin Star's Shadow,czn_equipment_images\Crustacean_Fluider.png
+Dull Bone Blade,Weapon,Rare,"10% Attack, -5% Critical Chance.",The Blue Pot,czn_equipment_images\Dull_Bone_Blade.png
+First Aid Kit,Trinket,Rare,"At the end of battle, Recover 5%.",Twin Star's Shadow,czn_equipment_images\First_Aid_Kit.png
+Flashbang,Weapon,Rare,"At the start of battle, apply 3 Weaken to a random enemy.",Shop,czn_equipment_images\Flashbang.png
+Gastronomicon,Weapon,Rare,"When using an Attack Card with cost 2 or more, 3 Agony.",Shop,czn_equipment_images\Gastronomicon.png
+Gladiator's Helmet,Armor,Rare,"At the start of battle, gain 2 Damage Reduction.",Shop,czn_equipment_images\Gladiators_Helmet.png
+Golden Bell,Trinket,Rare,"At the start of the battle, decrease Stress of a random ally by 3.",Burning Life,czn_equipment_images\Golden_Bell.png
+Gospel of Lament,Trinket,Rare,"When the Action Count of enemies increases, +30% Damage Amount to ally Attack Cards for 1 turn (1 time per turn)",Theater of Illusions,czn_equipment_images\Gospel_of_Lament.png
+Harpoon Case of Broken Resolve,Weapon,Rare,Create 1 Pierce each odd turn.,Burning Life,czn_equipment_images\Harpoon_Case_of_Broken_Resolve.png
+Hyperimmunity Hormone,Trinket,Rare,"When you Draw by an ability, +25% Shield gain for 1 turn (Max 2 times per turn).",Laboratory 0,czn_equipment_images\Hyperimmunity_Hormone.png
+Incomplete Carapace,Armor,Rare,"At the end of the turn, if you have 5 or more Cards in hand, +140% Fixed Shield.",Laboratory 0,czn_equipment_images\Incomplete_Carapace.png
+Launcher of Ruined Honor,Trinket,Rare,Create 1 Heavy Blow each even turn.,Burning Life,czn_equipment_images\Launcher_of_Ruined_Honor.png
+Lightless Stem,Trinket,Rare,Increase Heal Amount by 15%.,Burning Life,czn_equipment_images\Lightless_Stem.png
+Lush Seaweed Armor,Armor,Rare,"When gaining Shield, gain 30% Fixed Shield.",Shop,czn_equipment_images\Lush_Seaweed_Armor.png
+M.S.S Data Pad,Trinket,Rare,"At the start of Nihilum battle, 2 Vulnerable to all enemies.",City of Mist,czn_equipment_images\MSS_Data_Pad.png
+M85 Military Grenade,Weapon,Rare,"When using a Buff card, deal 150% Fixed Damage to all enemies.",Shop,czn_equipment_images\M85_Military_Grenade.png
+Magic-Infused Sapphire,Trinket,Rare,"At the start of battle, if the Outbreak of War card is in hand, 1 Tenacity Damage to all enemies.",Shop,czn_equipment_images\Magic-Infused_Sapphire.png
+Mask of Evil Spirits,Armor,Rare,"When taking damage, after 1 turn, +60% Fixed Shield at start of turn.",Swamp of Judgment,czn_equipment_images\Mask_of_Evil_Spirits.png
+Millenium Arbor,Weapon,Rare,"When a 3-cost or higher card is activated, 1 Vulnerable to a random enemy.",Burning Life,czn_equipment_images\Millenium_Arbor.png
+Moss Armor,Armor,Rare,"When an ally Attack Card was no activated for 1 turn and the turn ended, 100% Fixed Shield.",Burning Life,czn_equipment_images\Moss_Armor.png
+Multifaceted Parallel Universe Nexus,Trinket,Rare,"At the start of turn, activate 1 random Initiative card in hand.",Shop,czn_equipment_images\Multifaceted_Parallel_Universe_Nexus.png
+Nerve Hacking Module,Trinket,Rare,"When an ally uses a Forbidden Card, +20% Damage amount and +20% Shield gain for 1 turn (Max 2 times per turn).",Laboratory 0,czn_equipment_images\Nerve_Hacking_Module.png
+Obsidian Sword,Weapon,Rare,Increase damage amount by 12%.,Shop,czn_equipment_images\Obsidian_Sword.png
+Overcurrent Shock Unit,Weapon,Rare,"When you Draw by an ability, 50% Fixed Damage to a random enemy.",Laboratory 0,czn_equipment_images\Overcurrent_Shock_Unit.png
+Plant Doll,Trinket,Rare,"When 4 Skill Cards are Exhausted, decrease Stress of a random ally by 1.",Burning Life,czn_equipment_images\Plant_Doll.png
+Poacher's Pathfinder,Trinket,Rare,"In Sekred battle, +25% Damage, 2 Vulnerable to all enemies.",Swamp of Judgment,czn_equipment_images\Poachers_Pathfinder.png
+Proof of Initiation,Trinket,Rare,"In Chaos Order battles, +10% Defense.",The Blue Pot,czn_equipment_images\Proof_of_Initiation.png
+Resolute Gauntlets,Armor,Rare,"At the start of Chaos Order battle, +20% Damage, 1 Damage Reduction.",The Blue Pot,czn_equipment_images\Resolute_Gauntlets.png
+Rune Chord,Trinket,Rare,"If you have any Retained cards at the end of your turn, +60% Fixed Shield.",The Foretold Ruin,czn_equipment_images\Rune_Chord.png
+Scout's Combat Boots,Armor,Rare,"On enemy defeat, +60% Fixed Shield.",Shop,czn_equipment_images\Scouts_Combat_Boots.png
+Shield of Ashen Sacrifice,Armor,Rare,"If Damage is completely blocked, at the start of the next turn, create 1 Shield Blast.",Burning Life,czn_equipment_images\Shield_of_Ashen_Sacrifice.png
+Shining Lyre,Armor,Rare,"At the start of the turn, if an ally Exhaust card is in hand, 60% Fixed Shield.",Burning Life,czn_equipment_images\Shining_Lyre.png
+Someone’s Letter,Trinket,Rare,"At the end of the turn, if an ally Persona Card is in hand, 150% Fixed Damage to a random enemy",Theater of Illusions,czn_equipment_images\Someones_Letter.png
+Soul Orb,Trinket,Rare,"When a card is Exhausted, 1 Tenacity Damage to all enemies (1 time per battle).",City of Mist,czn_equipment_images\Soul_Orb.png
+Standard Gas Mask,Armor,Rare,"At the start of battle, gain 1 Immunity.",Shop,czn_equipment_images\Standard_Gas_Mask.png
+Steeler's Dagger,Weapon,Rare,"Upon Defeat, +5-10 Credits (1 per battle).",The Blue Pot,czn_equipment_images\Steelers_Dagger.png
+Summoned Lump of Light,Trinket,Rare,Increase Damage Amount of the third Attack Card created by 30% for 1 turn.,Burning Life,czn_equipment_images\Summoned_Lump_of_Light.png
+Survivor's Hood,Armor,Rare,"At the start of battle, gain 140% Fixed Shield.",Shop,czn_equipment_images\Survivors_Hood.png
+Sword of Judgment,Weapon,Rare,"When a card is Exhausted, increase Damage Amount by 10% for 1 turn (1 time per turn).",Burning Life,czn_equipment_images\Sword_of_Judgment.png
+The Fading Flower of Life,Weapon,Rare,"If at max HP, +40% Damage.",Swamp of Judgment,czn_equipment_images\The_Fading_Flower_of_Life.png
+The Famished One's Belly,Trinket,Rare,"When a card is Exhausted, +25% Damage, Recover 5% (1 per battle).",City of Mist,czn_equipment_images\The_Famished_Ones_Belly.png
+Time Regulator,Trinket,Rare,Activate Epiphany for the equipped combatant.,Shop,czn_equipment_images\Time_Regulator.png
+Titan Combat Suit,Armor,Rare,"When taking Damage, Recover 2% HP (1 per turn).",Shop,czn_equipment_images\Titan_Combat_Suit.png
+Torch of Wrath,Weapon,Rare,"At the start of a turn, apply 2 Mark to a random enemy.",Shop,czn_equipment_images\Torch_of_Wrath.png
+Vine Camouflage,Armor,Rare,"At the start of the turn, if Health is 30% or less, 1 Evade (2 times per battle).",Burning Life,czn_equipment_images\Vine_Camouflage.png
