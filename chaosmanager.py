@@ -1,7 +1,7 @@
 import json
 
 class ChaosManager:
-    def __init__(self, file_path="data.json"):
+    def __init__(self, file_path="data/equipment_data.json"):
         self.file_path = file_path
         self.data = self.load_data()
 
@@ -91,20 +91,26 @@ class ChaosManager:
             self.data["chaos_maps"][location].remove(name)
             self.save_data()
 
-    # --- CHỨC NĂNG TÌM KIẾM TỐI ƯU ---
+    # --- CHỨC NĂNG TÌM KIẾM TỐI ƯU VÀ SẮP XẾP ---
     def search_farm_locations(self, search_names):
-        # Chuẩn hóa danh sách tên nhập vào từ người dùng
         search_names = list(set([name.strip() for name in search_names if name.strip()]))
         search_names_lower = [n.lower() for n in search_names]
         
         if not search_names:
-            return {"grouped_common": [], "separate": {}}
+            return {"grouped_common": [], "separate": {}, "item_details": {}}
+
+        type_order = {"weapon": 0, "armor": 1, "trinket": 2}
+        rarity_order = {"mystic": 0, "legend": 1, "rare": 2}
+        
+        custom_sort_key = lambda x: (
+            type_order.get(x.get("type", "").lower(), 9),
+            rarity_order.get(x.get("level", "").lower(), 9)
+        )
 
         # 1. Thu thập dữ liệu chi tiết của các vật phẩm được tìm kiếm
         item_details = {}
         for eq in self.data.get("equipments", []):
             if eq["name"].lower() in search_names_lower:
-                # Tìm tên gốc viết hoa/thường chuẩn trong DB
                 standard_name = eq["name"]
                 item_details[standard_name] = eq
 
@@ -114,14 +120,12 @@ class ChaosManager:
             matched = []
             for item_name in items:
                 if item_name.lower() in search_names_lower:
-                    # Lấy tên chuẩn từ item_details hoặc giữ nguyên
                     standard_name = next((k for k in item_details if k.lower() == item_name.lower()), item_name)
                     matched.append(standard_name)
             if matched:
                 map_to_matched_items[loc] = tuple(sorted(matched))
 
         # --- XỬ LÝ TRƯỜNG HỢP 1: FARM CHUNG (GOM NHÓM TỐI ĐA) ---
-        # Đảo ngược dữ liệu: Nhóm các vật phẩm giống nhau -> Xem có những map nào chứa nhóm này
         items_group_to_maps = {}
         for loc, items_tuple in map_to_matched_items.items():
             if items_tuple not in items_group_to_maps:
@@ -130,10 +134,11 @@ class ChaosManager:
 
         grouped_common_results = []
         for items_tuple, locs in items_group_to_maps.items():
-            # Chỉ tính là farm chung/nhóm nếu nhóm đó có từ 2 món trở lên, 
-            # HOẶC trường hợp đặc biệt người dùng chỉ tìm đúng 1 món duy nhất.
             if len(items_tuple) >= 2 or len(search_names) == 1:
                 item_list_details = [item_details[name] for name in items_tuple if name in item_details]
+                
+                # SẮP XẾP 1: Sắp xếp các trang bị bên trong từng group cụ thể
+                item_list_details.sort(key=custom_sort_key)
                 
                 grouped_common_results.append({
                     "equip_list": item_list_details,
@@ -141,12 +146,8 @@ class ChaosManager:
                     "maps": locs
                 })
         
-        # Sắp xếp kết quả Farm chung theo thứ tự ưu tiên: Map nào chứa nhiều món trùng nhất lên đầu
+        # Sắp xếp các Group dựa trên: Map nào rớt nhiều món trùng nhất lên đầu
         grouped_common_results.sort(key=lambda x: x["match_count"], reverse=True)
-        # Sắp xếp các trang bị theo thuộc tính level
-        for group in grouped_common_results:
-            group["equip_list"].sort(key=lambda x: x.get("level", 0), reverse=True)
-        print("Grouped Common Results:", grouped_common_results)
             
         # --- XỬ LÝ TRƯỜNG HỢP 2: FARM LẺ (MỖI MÓN MỖI NƠI) ---
         separate_results = {}
@@ -156,8 +157,14 @@ class ChaosManager:
                 if any(i.lower() == standard_name.lower() for i in items):
                     separate_results[standard_name].append(loc)
 
+        # SẮP XẾP 2: Chuyển item_details thành một Dictionary đã được sắp xếp sẵn key-value
+        # Giúp client/frontend khi duyệt qua dict này sẽ hiện đúng thứ tự Weapon -> Armor -> Trinket
+        sorted_item_details = dict(
+            sorted(item_details.items(), key=lambda item: custom_sort_key(item[1]))
+        )
+
         return {
             "grouped_common": grouped_common_results, 
             "separate": separate_results,
-            "item_details": item_details
+            "item_details": sorted_item_details
         }

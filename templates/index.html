@@ -93,9 +93,10 @@
                                 <thead>
                                     <tr>
                                         <th>Image</th>
-                                        <th style="width: 25%;">Equipment Name</th>
+                                        <th style="width: 20%;">Equipment Name</th>
+                                        <th style="width: 15%;">Type</th>
                                         <th style="width: 15%;">Rarity</th>
-                                        <th style="width: 60%;">🗺️ Chaos Maps Where It Drops</th>
+                                        <th style="width: 50%;">🗺️ Chaos Maps Where It Drops</th>
                                     </tr>
                                 </thead>
                                     <tbody>
@@ -115,6 +116,8 @@
                                                         <span class="badge-{{ detail.level | lower }}">{{ detail.level }}</span>
                                                     {% endif %}
                                                 </td>
+                                                <td class="text-{{ detail.type | lower }}" style="vertical-align: middle; font-size: 16px;">{{ detail.type }}</td>
+                                                
                                                 <td>
                                                     {% if maps %}
                                                         {% for m in maps %}

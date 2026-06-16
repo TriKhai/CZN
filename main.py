@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
 from chaosmanager import ChaosManager
-from chaos import Equipment
+from equipment import Equipment
 
 app = Flask(__name__)
 manager = ChaosManager()
@@ -52,7 +52,6 @@ def delete_chaos(location):
 # --- TRANG DANH SÁCH VẬT PHẨM ---
 @app.route('/equipment')
 def equipment_list():
-    # Chuẩn bị dữ liệu hiển thị lồng: Đổi từ Danh sách Tên vật phẩm thành Object đầy đủ thuộc tính
     full_mapped_data = {}
     for loc, item_names in manager.data["chaos_maps"].items():
         full_mapped_data[loc] = []
@@ -65,7 +64,6 @@ def equipment_list():
 
 @app.route('/equipment/add', methods=['POST'])
 def add_equipment():
-    # Lấy toàn bộ danh sách các Map được tích chọn
     locations = request.form.getlist('locations') 
     name = request.form.get('name')
     eq_type = request.form.get('type')
